@@ -8,4 +8,8 @@
 	{
 		"viewed"		"10"
 	}
+	"d1_canals_03"
+	{
+		"viewed"		"3"
+	}
 }

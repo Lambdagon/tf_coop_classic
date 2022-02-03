@@ -1,5 +1,19 @@
 "sprites/640_hud"
 {
+
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+
+
 	TextureData
 	{
 		"whiteAdditive"
@@ -244,17 +258,10 @@
 				"font"		"TFTypeDeath"
 				"character"	"R"
 		}
-		"d_skull_tf"
+		"skull_tf"
 		{
-				"file"	"HUD/d_images"
-				"x"		"116"
-				"y"		"288"
-				"width"		"52"
-				"height"	"32"
-		}
-		"dneg_skull_tf"
-		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"116"
 				"y"		"288"
 				"width"		"52"
@@ -269,20 +276,31 @@
 				"height"	"128"
 		}
 		
-		"d_obj_sentrygun"
+		"obj_sentrygun"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"160"
 				"width"		"64"
 				"height"	"32"
 		}
-		"dneg_obj_sentrygun"
+		"obj_sentrygun2"
 		{
-				"file"	"HUD/dneg_images"
-				"x"		"96"
-				"y"		"160"
-				"width"		"64"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"256"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"obj_sentrygun3"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"256"
+				"y"		"32"
+				"width"		"96"
 				"height"	"32"
 		}
 		"voice_self"
@@ -303,584 +321,375 @@
 			"height"	"32"
 		}
 
-		"d_bat"
+		"bat"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"0"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_pistol"
+		"pistol"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"32"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_pistol_scout"
+		"pistol_scout"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"32"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_nailgun"
+		"nailgun"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"64"
 				"width"		"64"
 				"height"	"32"
 		}
-		"d_sniperrifle"
+		"sniperrifle"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"16"
 				"y"		"96"
 				"width"		"32"
 				"height"	"32"
 		}
-		"d_smg"
+		"smg"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"128"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_club"
+		"club"
 		{
-				"file"	"HUD/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"160"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_shovel"
+		"shovel"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"192"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_tf_projectile_rocket"
+		"tf_projectile_rocket"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"224"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_shotgun_primary"
+		"shotgun_primary"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_shotgun_soldier"
+		"shotgun_soldier"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_shotgun_hwg"
+		"shotgun_hwg"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_shotgun_pyro"
+		"shotgun_pyro"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_tf_projectile_pipe"
+		"tf_projectile_pipe"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"288"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_bottle"
+		"bottle"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"320"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_syringegun_medic"
+		"tf_projectile_syringe"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"352"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_minigun"
+		"minigun"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"384"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_pipe"
+		"pipe"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"448"
 				"width"		"96"
 				"height"	"32"
-		}
-		"d_flamethrower"
+		}		
+		"flamethrower"
 		{
-				"file"	"HUD/d_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"416"
 				"width"		"96"
 				"height"	"32"
 		}
-		"d_fists"
+		"fists"
 		{
-				"file"	"HUD/d_images"		
-				"x"		"0"
-				"y"		"448"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_fireaxe"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"0"
-				"y"		"480"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_bonesaw"
-		{
-				"file"	"HUD/d_images"
-				"x"		"96"
-				"y"		"128"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_knife"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"0"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_revolver"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"32"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_wrench"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"96"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_scattergun"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"192"
-				"width"		"96"
-				"height"	"32"
-		}		
-		"d_tf_projectile_pipe_remote"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"224"
-				"width"		"96"
-				"height"	"32"
-		}		
-		"d_vehicle"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"96"
-				"y"		"256"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_skull"
-		{
-				"file"	"HUD/d_images"
-				"x"		"96"
-				"y"		"288"
-				"width"		"96"
-				"height"	"32"
-		}
-		"d_headshot"
-		{
-				"file"	"HUD/d_images"
-				"x"		"120"
-				"y"		"352"
-				"width"		"42"
-				"height"	"32"
-		}
-		"d_backstab"
-		{
-				"file"	"HUD/d_images"
-				"x"		"116"
-				"y"		"384"
-				"width"		"48"
-				"height"	"32"
-		}
-		"d_bluedefend"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"194"
-				"y"		"0"
-				"width"		"32"
-				"height"	"32"
-		}
-		"d_bluecapture"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"194"
-				"y"		"32"
-				"width"		"32"
-				"height"	"32"
-		}
-		"d_reddefend"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"226"
-				"y"		"0"
-				"width"		"32"
-				"height"	"32"
-		}
-		"d_redcapture"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"226"
-				"y"		"32"
-				"width"		"32"
-				"height"	"32"
-		}
-		"d_obj_attachment_sapper"
-		{
-				"file"	"HUD/d_images"		
-				"x"		"0"
-				"y"		"64"
-				"width"		"96"
-				"height"	"32"
-		}
-// ***********************************************************negative
-		"dneg_bat"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"0"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_pistol"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"32"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_pistol_scout"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"32"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_nailgun"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"64"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"191"
+				"y"		"446"
 				"width"		"64"
 				"height"	"32"
 		}
-		"dneg_sniperrifle"
+		"fireaxe"
 		{
-				"file"	"HUD/dneg_images"
-				"x"		"16"
-				"y"		"96"
-				"width"		"32"
-				"height"	"32"
-		}
-		"dneg_smg"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"128"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_club"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"160"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_shovel"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"192"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_tf_projectile_rocket"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"224"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_shotgun_primary"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"256"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_shotgun_soldier"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"256"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_shotgun_hwg"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"256"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_shotgun_pyro"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"256"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_tf_projectile_pipe"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"288"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_bottle"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"320"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_syringegun_medic"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"352"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_minigun"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"384"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_pipe"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"448"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_flamethrower"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"416"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_fists"
-		{
-				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"448"
-				"width"		"96"
-				"height"	"32"
-		}
-		"dneg_fireaxe"
-		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"480"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_bonesaw"
+		"bonesaw"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"128"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_knife"
+		"knife"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"0"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_revolver"
+		"revolver"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"32"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_wrench"
+		"wrench"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"96"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_scattergun"
+		"scattergun"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"192"
 				"width"		"96"
 				"height"	"32"
 		}		
-		"dneg_tf_projectile_pipe_remote"
+		"tf_projectile_pipe_remote"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"224"
 				"width"		"96"
 				"height"	"32"
 		}		
-		"dneg_vehicle"
+		"vehicle"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"256"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_skull"
+		"skull"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"288"
 				"width"		"96"
 				"height"	"32"
 		}
-		"dneg_headshot"
+		"headshot"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"120"
 				"y"		"352"
 				"width"		"42"
 				"height"	"32"
 		}
-		"dneg_backstab"
+		"backstab"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"116"
 				"y"		"384"
 				"width"		"48"
 				"height"	"32"
 		}
-		"dneg_bluedefend"
+		"firedeath"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"263"
+				"y"		"256"
+				"width"		"64"
+				"height"	"32"
+		}
+		"crit"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"192"
+				"y"		"409"
+				"width"		"64"
+				"height"	"34"
+		}
+		"taunt_pyro"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"96"
+				"y"		"480"
+				"width"		"96"
+				"height"	"32"
+		}
+		"taunt_heavy"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"191"
+				"y"		"479"
+				"width"		"64"
+				"height"	"32"
+		}
+		"taunt_spy"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"263"
+				"y"		"129"
+				"width"		"92"
+				"height"	"32"
+		}
+		"bluedefend"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"0"
 				"width"		"32"
 				"height"	"32"
 		}
-		"dneg_bluecapture"
+		"bluecapture"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"32"
 				"width"		"32"
 				"height"	"32"
 		}
-		"dneg_reddefend"
+		"reddefend"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"226"
 				"y"		"0"
 				"width"		"32"
 				"height"	"32"
 		}
-		"dneg_redcapture"
+		"redcapture"
 		{
-				"file"	"HUD/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"226"
 				"y"		"32"
 				"width"		"32"
 				"height"	"32"
 		}
-		"dneg_obj_attachment_sapper"
+		"obj_attachment_sapper"
 		{
-				"file"	"HUD/dneg_images"		
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"64"
 				"width"		"96"
 				"height"	"32"
 		}
-// *************************************************************endnegative
 		"obj_status_sentrygun_1"
 		{
 			"file"	"HUD/hud_obj_status_sentry_1"
@@ -983,6 +792,24 @@
 		"obj_status_background_red"
 		{
 			"file"		"HUD/eng_status_area_tele_red"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"64"
+		}
+
+		"obj_status_background_green"
+		{
+			"file"		"HUD/eng_status_area_tele_green"
+			"x"			"0"
+			"y"			"0"
+			"width"		"243"
+			"height"	"64"
+		}
+
+		"obj_status_background_yellow"
+		{
+			"file"		"HUD/eng_status_area_tele_yellow"
 			"x"			"0"
 			"y"			"0"
 			"width"		"243"
@@ -1093,7 +920,7 @@
 			"y"		"0"
 			"width"		"128"
 			"height"	"128"
-		}				
+		}
 
 		"dispenser_meter_bg_blue"
 		{
@@ -1102,7 +929,7 @@
 			"y"		"0"
 			"width"		"256"
 			"height"	"128"
-		}	
+		}
 		
 		"dispenser_meter_bg_red"
 		{
@@ -1111,7 +938,7 @@
 			"y"		"0"
 			"width"		"256"
 			"height"	"128"
-		}	
+		}
 
 		"leaderboard_dominated"
 		{
@@ -1316,7 +1143,7 @@
 			"y"		"0"
 			"width"	"128"
 			"height" "256"
-		}				
+		}
 		
 		"hud_menu_sentry_build"
 		{
@@ -1461,5 +1288,457 @@
 			"width"	"64"
 			"height"	"64"
 		}
+		
+		// HL2 ents start here
+		"crossbow"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"0"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"shotgun"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"32"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"ar2"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"64"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"grenade_frag"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"96"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"crowbar"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"128"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"pistol_hl"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"160"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"357"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"192"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"smg1"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"224"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"stunstick"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"256"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"prop_physics"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"288"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"combine_ball"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"320"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"rpg"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"352"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"ar2_grenade"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"384"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"deflect_frag"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"416"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"deflect_ar2grenade"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"448"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"deflect_rpg"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"0"
+			"y"	"480"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"zombie"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"0"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"fastzombie"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"0"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"poisonzombie"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"0"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"antlion"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"32"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"headcrab"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"64"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"headcrab_fast"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"64"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"headcrab_poison"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"64"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"hunter_pound"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"96"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"hunter_skewer"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"128"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"antlionguard"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"160"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"hunter_charge"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"192"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"acidball"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"224"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"flechette"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"256"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"antworker_explosion"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"288"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"vortigaunt_beam"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"320"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"vortigaunt"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"352"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"deflect_crossbowbolt"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"416"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"deflect_combineball"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"448"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"deflect_acidball"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"96"
+			"y"	"480"
+			"width"	"64"
+			"height"	"32"
+		}
+
+		"rollermine"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"0"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"manhack"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"32"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"turret_floor"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"64"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"combine_mine"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"96"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"airboat_gun"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"128"
+			"width"	"96"
+			"height"	"32"
+		}
+		
+		"helicopter"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"128"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"strider_minigun"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"160"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"strider_beam"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"192"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"strider_skewer"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"224"
+			"width"	"96"
+			"height"	"32"
+		}
+
+		"have_an_error"
+		{
+			"dfile"	"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"	"192"
+			"y"	"480"
+			"width"	"96"
+			"height"	"32"
+		}
+
 	}	
 }

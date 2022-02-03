@@ -122,15 +122,19 @@
 	"pitch"		"92,96"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"
-	{
-		"wave"		"player/pl_fleshbreak1.wav"
-		"wave"		"player/pl_fleshbreak2.wav"
-		"wave"		"player/pl_fleshbreak3.wav"
-		"wave"		"player/pl_fleshbreak4.wav"
-		"wave"		"player/pl_fleshbreak5.wav"
-		"wave"		"player/pl_fleshbreak8.wav"
-	}
+//  2007
+//	"rndwave"
+//	{
+//		"wave"		"player/pl_fleshbreak1.wav"
+//		"wave"		"player/pl_fleshbreak2.wav"
+//		"wave"		"player/pl_fleshbreak3.wav"
+//		"wave"		"player/pl_fleshbreak4.wav"
+//		"wave"		"player/pl_fleshbreak5.wav"
+//		"wave"		"player/pl_fleshbreak8.wav"
+//	}
+
+//	2014
+	"wave"		"player/pl_fleshbreak.wav"
 }
 
 "Player.FallDamage"
@@ -140,20 +144,24 @@
 	"pitch"		"92,96"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"
-	{
-		"wave"		"player/pl_fallpain3.wav"
-		"wave"		"player/pl_fallpain4.wav"
-		"wave"		"player/pl_fallpain5.wav"
-		"wave"		"player/pl_fallpain6.wav"
-		"wave"		"player/pl_fallpain7.wav"
-		"wave"		"player/pl_fallpain8.wav"
-		"wave"		"player/pl_fallpain9.wav"
-		"wave"		"player/pl_fallpain10.wav"
-		"wave"		"player/pl_fallpain11.wav"
-		"wave"		"player/pl_fallpain12.wav"
-		"wave"		"player/pl_fallpain13.wav"
-	}
+//	2007
+//	"rndwave"
+//	{
+//		"wave"		"player/pl_fallpain3.wav"
+//		"wave"		"player/pl_fallpain4.wav"
+//		"wave"		"player/pl_fallpain5.wav"
+//		"wave"		"player/pl_fallpain6.wav"
+//		"wave"		"player/pl_fallpain7.wav"
+//		"wave"		"player/pl_fallpain8.wav"
+//		"wave"		"player/pl_fallpain9.wav"
+//		"wave"		"player/pl_fallpain10.wav"
+//		"wave"		"player/pl_fallpain11.wav"
+//		"wave"		"player/pl_fallpain12.wav"
+//		"wave"		"player/pl_fallpain13.wav"
+//	}
+
+//	2014
+	"wave"		"player/pl_fallpain.wav"
 }
 
 "Player.PlasmaDamage"
@@ -171,12 +179,16 @@
 	"volume"	"0.7"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"rndwave"
-	{
-		"wave"	"player/pl_pain5.wav"
-		"wave"	"player/pl_pain6.wav"
-		"wave"	"player/pl_pain7.wav"
-	}
+//	2007
+//	"rndwave"
+//	{
+//		"wave"	"player/pl_pain5.wav"
+//		"wave"	"player/pl_pain6.wav"
+//		"wave"	"player/pl_pain7.wav"
+//	}
+
+//	2014
+	"wave"	"player/pain.wav"
 }
 
 "Player.DrownStart"
@@ -274,25 +286,28 @@
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/pain6.wav"
-		"wave"		"player/pain7.wav"
-		"wave"		"player/pain8.wav"
-		"wave"		"player/pain9.wav"
-		"wave"		"player/pain10.wav"
-		"wave"		"player/pain11.wav"
-		"wave"		"player/pain12.wav"
-		"wave"		"player/pain13.wav"
-		"wave"		"player/pain14.wav"
-		"wave"		"player/pain15.wav"
-		"wave"		"player/pain18.wav"
-		"wave"		"player/pain20.wav"
-		"wave"		"player/pain21.wav"
-		"wave"		"player/pain23.wav"
-		"wave"		"player/pain24.wav"
-	}
+// 2007
+//	"rndwave"
+//	{
+//		"wave"		"player/pain6.wav"
+//		"wave"		"player/pain7.wav"
+//		"wave"		"player/pain8.wav"
+//		"wave"		"player/pain9.wav"
+//		"wave"		"player/pain10.wav"
+//		"wave"		"player/pain11.wav"
+//		"wave"		"player/pain12.wav"
+//		"wave"		"player/pain13.wav"
+//		"wave"		"player/pain14.wav"
+//		"wave"		"player/pain15.wav"
+//		"wave"		"player/pain18.wav"
+//		"wave"		"player/pain20.wav"
+//		"wave"		"player/pain21.wav"
+//		"wave"		"player/pain23.wav"
+//		"wave"		"player/pain24.wav"
+//	}
 
+//	2014
+	"wave"		"player/pain.wav"
 }
 
 "TFPlayer.AttackerPain"
@@ -302,17 +317,20 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/death3.wav"
-		"wave"		"player/death5.wav"
-		"wave"		"player/death6.wav"
-		"wave"		"player/death7.wav"
-		"wave"		"player/death8.wav"
-		"wave"		"player/death9.wav"
-		"wave"		"player/death10.wav"
-	}
+//	2007	
+//	"rndwave"
+//	{
+//		"wave"		"player/death3.wav"
+//		"wave"		"player/death5.wav"
+//		"wave"		"player/death6.wav"
+//		"wave"		"player/death7.wav"
+//		"wave"		"player/death8.wav"
+//		"wave"		"player/death9.wav"
+//		"wave"		"player/death10.wav"
+//	}
 
+//	2014
+	"wave"		"player/death.wav"
 }
 
 "TFPlayer.FirePain"
@@ -322,17 +340,20 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/fire1.wav"
-		"wave"		"player/fire2.wav"
-		"wave"		"player/fire3.wav"
-		"wave"		"player/fire4.wav"
-		"wave"		"player/fire5.wav"
-		"wave"		"player/fire6.wav"
-		"wave"		"player/fire7.wav"
-	}
+// 2007
+//	"rndwave"
+//	{
+//		"wave"		"player/fire1.wav"
+//		"wave"		"player/fire2.wav"
+//		"wave"		"player/fire3.wav"
+//		"wave"		"player/fire4.wav"
+//		"wave"		"player/fire5.wav"
+//		"wave"		"player/fire6.wav"
+//		"wave"		"player/fire7.wav"
+//	}
 
+//	2014
+	"wave"		"player/fire.wav"
 }
 
 "TFPlayer.CritPain"
@@ -357,16 +378,19 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"PITCH_NORM"
-	
-	"rndwave"
-	{
-		"wave"		"player/crit_death1.wav"
-		"wave"		"player/crit_death2.wav"
-		"wave"		"player/crit_death3.wav"
-		"wave"		"player/crit_death4.wav"
-		"wave"		"player/crit_death5.wav"
 
-	}
+// 	2007
+//	"rndwave"
+//	{
+//		"wave"		"player/crit_death1.wav"
+//		"wave"		"player/crit_death2.wav"
+//		"wave"		"player/crit_death3.wav"
+//		"wave"		"player/crit_death4.wav"
+//		"wave"		"player/crit_death5.wav"
+//	}
+	
+//	2014
+	"wave"		"player/death.wav"
 }
 
 "Player.Death"
@@ -376,25 +400,28 @@
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/pain6.wav"
-		"wave"		"player/pain7.wav"
-		"wave"		"player/pain8.wav"
-		"wave"		"player/pain9.wav"
-		"wave"		"player/pain10.wav"
-		"wave"		"player/pain11.wav"
-		"wave"		"player/pain12.wav"
-		"wave"		"player/pain13.wav"
-		"wave"		"player/pain14.wav"
-		"wave"		"player/pain15.wav"
-		"wave"		"player/pain18.wav"
-		"wave"		"player/pain20.wav"
-		"wave"		"player/pain21.wav"
-		"wave"		"player/pain23.wav"
-		"wave"		"player/pain24.wav"
-	}
+//	2007
+//	"rndwave"
+//	{
+//		"wave"		"player/pain6.wav"
+//		"wave"		"player/pain7.wav"
+//		"wave"		"player/pain8.wav"
+//		"wave"		"player/pain9.wav"
+//		"wave"		"player/pain10.wav"
+//		"wave"		"player/pain11.wav"
+//		"wave"		"player/pain12.wav"
+//		"wave"		"player/pain13.wav"
+//		"wave"		"player/pain14.wav"
+//		"wave"		"player/pain15.wav"
+//		"wave"		"player/pain18.wav"
+//		"wave"		"player/pain20.wav"
+//		"wave"		"player/pain21.wav"
+//		"wave"		"player/pain23.wav"
+//		"wave"		"player/pain24.wav"
+//	}
 
+//	2014
+	"wave"		"player/pain.wav"
 }
 
 "Player.MeleeDeath"
@@ -404,16 +431,20 @@
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/death3.wav"
-		"wave"		"player/death5.wav"
-		"wave"		"player/death6.wav"
-		"wave"		"player/death7.wav"
-		"wave"		"player/death8.wav"
-		"wave"		"player/death9.wav"
-		"wave"		"player/death10.wav"
-	}
+//	2007
+//	"rndwave"
+//	{
+//		"wave"		"player/death3.wav"
+//		"wave"		"player/death5.wav"
+//		"wave"		"player/death6.wav"
+//		"wave"		"player/death7.wav"
+//		"wave"		"player/death8.wav"
+//		"wave"		"player/death9.wav"
+//		"wave"		"player/death10.wav"
+//	}
+	
+//	2014
+	"wave"		"player/death.wav"
 }
 
 "Player.ExplosionDeath"
@@ -423,24 +454,28 @@
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
 
-	"rndwave"
-	{
-		"wave"		"player/pain6.wav"
-		"wave"		"player/pain7.wav"
-		"wave"		"player/pain8.wav"
-		"wave"		"player/pain9.wav"
-		"wave"		"player/pain10.wav"
-		"wave"		"player/pain11.wav"
-		"wave"		"player/pain12.wav"
-		"wave"		"player/pain13.wav"
-		"wave"		"player/pain14.wav"
-		"wave"		"player/pain15.wav"
-		"wave"		"player/pain18.wav"
-		"wave"		"player/pain20.wav"
-		"wave"		"player/pain21.wav"
-		"wave"		"player/pain23.wav"
-		"wave"		"player/pain24.wav"
-	}
+// 	2007
+//	"rndwave"
+//	{
+//		"wave"		"player/pain6.wav"
+//		"wave"		"player/pain7.wav"
+//		"wave"		"player/pain8.wav"
+//		"wave"		"player/pain9.wav"
+//		"wave"		"player/pain10.wav"
+//		"wave"		"player/pain11.wav"
+//		"wave"		"player/pain12.wav"
+//		"wave"		"player/pain13.wav"
+//		"wave"		"player/pain14.wav"
+//		"wave"		"player/pain15.wav"
+//		"wave"		"player/pain18.wav"
+//		"wave"		"player/pain20.wav"
+//		"wave"		"player/pain21.wav"
+//		"wave"		"player/pain23.wav"
+//		"wave"		"player/pain24.wav"
+//	}
+
+//	2014
+	"wave"		"player/pain.wav"
 }
 
 "TFPlayer.GrenadeTimer"
