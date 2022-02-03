@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Feb 02 09:43:09 PM
+// File generated:  Wed Feb 02 10:07:17 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Team Fortress 2" }
+		{ "Lambda Fortress Classic" }
 	}
 
 	"maxplayers"

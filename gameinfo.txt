@@ -38,11 +38,6 @@
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
-			game+mod 			"C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf"
-			game+mod			"C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf\tf2_misc_dir.vpk"
-			game+mod			"C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf\tf2_sound_misc_dir.vpk"
-			game+mod			"C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf\tf2_sound_vo_english_dir.vpk"
-			game+mod			"C:\Program Files (x86)\steam\steamapps\common\Team Fortress 2\tf\tf2_textures_dir.vpk"
 
 			// Mount in shared loose files.
 			game				|all_source_engine_paths|hl2
