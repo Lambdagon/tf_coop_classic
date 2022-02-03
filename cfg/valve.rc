@@ -18,3 +18,10 @@ stuffcmds
 //startupmenu
 
 sv_unlockedchapters 99
+
+//bunny hop commands
+lf_autojump 1
+lf_duckjump 1
+
+//disable waiting for players test 
+mp_waitingforplayers_cancel 1

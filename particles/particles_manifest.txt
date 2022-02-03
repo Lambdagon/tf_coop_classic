@@ -29,16 +29,5 @@ particles_manifest
 		"file"		"!particles/flag_particles.pcf"
 		"file"		"!particles/buildingdamage.pcf"
 		"file"		"!particles/shellejection.pcf"
-		"file"		"!particles/impact_fx.pcf"
-		
-	//hl2
-	"file"		"particles/antlion_blood.pcf"
-	"file"		"particles/blood_impact_hl2.pcf"
-	"file"		"particles/water_impact.pcf"
-	"file"		"particles/fire_01.pcf"
-	"file"		"particles/burning_fx.pcf"
-	"file"		"particles/combineball.pcf"
-	"file"		"particles/vortigaunt_fx.pcf"
-	"file"		"particles/rocket_fx.pcf"
 }
 

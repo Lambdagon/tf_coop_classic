@@ -732,12 +732,3 @@
 	"soundlevel"  	"SNDLVL_NORM"
 	"wave"		"misc/freeze_cam_snapshot.wav"
 }
-
-"Achievement.Earned"
-{
-	"channel"		"CHAN_STATIC"
-	"volume"		"1"
-	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			")misc/achievement_earned.wav"
-}

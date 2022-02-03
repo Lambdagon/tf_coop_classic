@@ -58,6 +58,81 @@
 //	SNDLVL_140dB	= 140,	// 0.2
 //	SNDLVL_150dB	= 150,	// 0.2
 
+
+"Badlands.DeepInside"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/command_center.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"position"	"5"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/printer.wav"
+	}
+}
+
 "Badlands.Inside"
 {
 	"dsp"	"1"
@@ -72,52 +147,9 @@
 
 	"playlooping"
 	{
-		"volume"	".20"
+		"volume"	".30"
 		"pitch"		"100"
 		"wave"		"ambient/lighthum.wav"
-	}
-
-	"playlooping"
-	{
-		"volume"	".4"
-		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
-	}
-
-	"playlooping"
-	{
-		"volume"		"1"
-		"pitch"		"100"
-		"position"		"1"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/machine_hum2.wav"
-	}
-	
-	"playlooping"
-	{
-		"volume"		".75"
-		"pitch"		"100"
-		"position"		"2"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working2.wav"
-	}
-
-	"playlooping"
-	{
-		"volume"		"1"
-		"pitch"		"100"
-		"position"		"3"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/machine_hum.wav"
-	}
-	
-	"playlooping"
-	{
-		"volume"		".75"
-		"pitch"		"100"
-		"position"		"4"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working.wav"
 	}
 }
 
@@ -126,60 +158,29 @@
 {
 	"dsp"	"1"
 
+
 	"playlooping"
 	{
-		"volume"	".75"
+		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"wave"		"ambient/outdoors_well.wav"
 	}
 
 	"playlooping"
 	{
-		"volume"	".1"
-		"pitch"		"100"
-		"wave"		"ambient/desert_wind_high.wav"
-	}
-
-
-	"playrandom"
-	{
-		"time"		"10,20"
 		"volume"	"1"
 		"pitch"		"100"
-		"rndwave"
-		{
-			"wave"		"ambient/dog1.wav"
-			"wave"		"ambient/dog2.wav"
-			"wave"		"ambient/dog3.wav"
-			"wave"		"ambient/dog4.wav"
-			"wave"		"ambient/hawk.wav"
-			"wave"		"ambient/owl3.wav"
-			"wave"		"ambient/owl4.wav"
-			"wave"		"ambient/warbler.wav"
-			"wave"		"ambient/crow3.wav"
-			"wave"		"ambient/crow4.wav"
-
-		}
-	}
-
-}
-
-"Badlands.OutsideInterior"
-{
-	"dsp"	"1"
-
-	"playlooping"
-	{
-		"volume"	".55"
-		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.wav"
+		"position"	"1"
+		"soundlevel"	"SNDLVL_85dB"
+		"wave"		"ambient/factory_outdoor.wav"
 	}
 
 	"playlooping"
 	{
-		"volume"	".25"
+		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"position"	"0"
+		"soundlevel"	"SNDLVL_90dB"	
+		"wave"		"ambient/machine_hum.wav"
 	}
 }
-

@@ -16,14 +16,14 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r119"	[$WIN32]
+		"xpos"	"r99"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r85"	[$WIN32]
+		"ypos"	"r55"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
-		"wide"	"110"
-		"tall"	"90"
+		"wide"	"90"
+		"tall"	"45"
 	}
 	
 	HudObjectiveStatus
@@ -137,18 +137,6 @@
 		"ypos"					"r174"	[$X360]
 		"wide"					"116"
 		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -755,7 +743,6 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
-		"avatar_offset"			"22"
 	}
 
 	FreezePanelCallout
@@ -818,7 +805,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	HudMenuSpyDisguise
+	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
@@ -832,33 +819,6 @@
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
-	
-	HudMenuSelectBase
-	{
-		"fieldName" 	"HudMenuSlotSelect.res"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c"
-		"ypos"			"c"
-		"wide"			"450"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
-	}
-	
-	HudMenuWeaponIcon
-	{
-		"fieldName" 	"HudMenuWeaponIcon"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"100"
-		"tall"			"100"	[$WIN32]
-		"tall"			"180"	[$X360]
-		"PaintBackgroundType"	"0"
-	}		
 	
 	HudDemomanPipes
 	{

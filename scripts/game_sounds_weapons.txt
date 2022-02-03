@@ -720,14 +720,6 @@
 	"wave"		")weapons/flame_thrower_end.wav"
 }
 
-"Weapon_FlameThrower.FireHit"
-{
-	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_fire_hit.wav"
-}
-
 "Weapon_FlameThrower.PilotLoop"
 {
 	"channel"	"CHAN_WEAPON"
