@@ -65,3 +65,4 @@ media\viewed.res
 materials\vgui\logos\ui\*
 materials/vgui/logos/ui/spray.vmt
 downloadlists/d1_canals_05.lst
+*.cache
