@@ -28,6 +28,12 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
+	"6"
+	{
+		"label" "CONSOLE"
+		"command" "engine toggleconsole"
+		"OnlyInGame" "0"
+	}
 	"10"
 	{
 		"label" "#GameUI_GameMenu_PlayerStats"
