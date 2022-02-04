@@ -24,7 +24,10 @@
 			// folder.
 			// Note that this folder is scanned only when the game is booted.
 			game+mod			|gameinfo_path|custom/*
-
+			
+			//Our stuff
+			game+mod			|gameinfo_path|vpks/tf_coop_classic_sound_vo_english.vpk
+			
 			// Search game's files after any user customizations. This is also where any writes should go.
 			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
 
