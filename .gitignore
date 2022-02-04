@@ -33,6 +33,10 @@ console.log
 *.dem
 
 # user stuff
+ServerConfig.vdf
+sound/sound.cache
+modelsounds.cache
+media/viewed.res
 *.ain
 Gamestate.txt
 download/*
