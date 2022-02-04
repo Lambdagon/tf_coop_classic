@@ -14,6 +14,6 @@
 	}
 	"d1_trainstation_01"
 	{
-		"viewed"		"1"
+		"viewed"		"2"
 	}
 }
