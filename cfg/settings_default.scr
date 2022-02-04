@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Team Fortress 2" }
+		{ "Lambda Fortress Classic" }
 	}
 
 	"maxplayers"
@@ -105,4 +105,34 @@ DESCRIPTION SERVER_OPTIONS
 			"#TF_DifficultyHard"	"2"
 		}
 		{ "0" }
+	}
+	
+	"lf_autojump"
+	{
+		"Auto Jump"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"lf_duckjump"
+	{
+		"Duck Jumping"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	
+	"mp_disable_respawn_times"
+	{
+		"No Respawn time"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"sv_cheats"
+	{
+		"Cheats"
+		{ BOOL }
+		{ "0" }
+	}
 }
