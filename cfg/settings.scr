@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Feb 03 10:35:45 AM
+// File generated:  Thu Feb 03 04:19:02 PM
 //
 //
 // Cvar	-	Setting
@@ -45,21 +45,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Lambda Fortress Classic" }
+		{ "Dev Test" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1 24 }
-		{ "24" }
+		{ "8" }
 	}
 
 	"sv_password"
 	{
 		"#Valve_Server_Password"
 		{ STRING }
-		{ "" }
+		{ "devtest" }
 	}
 
 	"mp_timelimit"

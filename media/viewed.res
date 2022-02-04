@@ -1,34 +1,14 @@
 "viewed.res"
 {
-	"d1_trainstation_01"
-	{
-		"viewed"		"1"
-	}
 	"d1_town_01"
 	{
-		"viewed"		"10"
+		"viewed"		"4"
 	}
-	"d1_canals_03"
-	{
-		"viewed"		"3"
-	}
-	"d3_citadel_02"
-	{
-		"viewed"		"3"
-	}
-	"d3_citadel_03"
+	"d2_coast_01"
 	{
 		"viewed"		"1"
 	}
-	"d3_breen_01"
-	{
-		"viewed"		"2"
-	}
-	"d3_citadel_01"
-	{
-		"viewed"		"1"
-	}
-	"d3_citadel_04"
+	"d2_coast_10"
 	{
 		"viewed"		"1"
 	}

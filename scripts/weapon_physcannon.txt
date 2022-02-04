@@ -7,16 +7,11 @@ WeaponData
 	"viewmodel"			"models/weapons/v_physcannon.mdl"
 	"playermodel"		"models/weapons/w_Physics.mdl"
 	"anim_prefix"		"gauss"
-	"bucket"			"0"
-	"bucket_position"	"1"
-	"bucket_360"			"2"
-	"bucket_position_360"	"1"
+	"bucket"			"3"
+	"bucket_position"	"0"
 	"clip_size"			"1"
-	"clip2_size"		"0"
 	"primary_ammo"		"None"
-	"secondary_ammo"	"None"
 	"default_clip"		"0"
-	"default_clip2"		"0"
 	"weight"			"0"
 	"autoswitchto"		"0"
 	"autoswitchfrom"	"0"
@@ -47,26 +42,43 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"m"
+				"file"		"sprites/bucket_physcannon"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
 		}
 		"weapon_s"
 		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"m"
+				"file"		"sprites/bucket_physcannon"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"ammo"
+		{
+				"file"		"sprites/a_icons1"
+				"x"		"55"
+				"y"		"60"
+				"width"		"73"
+				"height"	"15"
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+				"file"		"sprites/crosshairs"
+				"x"		"0"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
 		}
 		"autoaim"
 		{
-			"file"		"sprites/crosshairs"
-			"x"			"48"
-			"y"			"72"
-			"width"		"24"
-			"height"	"24"
+				"file"		"sprites/crosshairs"
+				"x"		"0"
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
 		}
 	}
 }

@@ -18,6 +18,3 @@ stuffcmds
 //startupmenu
 
 sv_unlockedchapters 99
-
-//physcannon 
-physcannon_tracelength 2500

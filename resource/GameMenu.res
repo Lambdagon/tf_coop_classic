@@ -28,21 +28,6 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"7"
-	{
-		"label"	"#GameUI_LoadCommentary"
-		"command" "OpenLoadSingleplayerCommentaryDialog"
-	}
-	"8"
-	{
-		"label" "#GameUI_ReportBug"
-		"command" "engine bug"
-	}
-	"9"
-	{
-		"label" "#GameUI_GameMenu_Achievements"
-		"command" "OpenAchievementsDialog"
-	}
 	"10"
 	{
 		"label" "#GameUI_GameMenu_PlayerStats"

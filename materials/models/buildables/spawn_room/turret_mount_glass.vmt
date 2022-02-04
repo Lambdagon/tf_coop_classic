@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-
-"$basetexture"	"models\buildables\spawn_room\turret_mount_glass"
-	"$translucent" "1"
-	"$additive" "1"	
-
-}

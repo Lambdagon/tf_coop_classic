@@ -2736,3 +2736,166 @@ GM_2CHOOSE gman/gman_choose2 {Len 1.59}
 GM_WISE gman/gman_wise {Len 5.11}
 GM_REGRET gman/gman_noreg {Len 2.67}
 GM_WONTWORK gman/gman_nowork {Len 3.35}
+
+//CREMATOR
+
+CREM_IDLE0 npc/cremator_orig/amb_loop {Len 1.00}
+CREM_IDLE1 npc/cremator_orig/amb_mad {Len 1.00}
+
+CREM_DISTRESS0 npc/cremator_orig/callforhelp {Len 1.00}
+
+CREM_ALERT0 npc/cremator_orig/alert_object {Len 1.00}
+CREM_ALERT1 npc/cremator_orig/alert_player {Len 1.00}
+
+CREM_KILL0 npc/cremator_orig/killedenemy {Len 1.00}
+
+//Conscript
+//OK, WAIT, KILL, OUT_AMMO and LINE_FIRE series processed with LISE (lwv files) for test purposes
+
+//Conscript Out of Ammo
+CONSCRIPT_OUT_AMMO0 npc/conscript/out_ammo {Len 0.90}
+CONSCRIPT_OUT_AMMO1 npc/conscript/reload {Len 0.95}
+CONSCRIPT_OUT_AMMO2 npc/conscript/coverme {Len 0.58}
+
+
+//Player in Line of Fire
+CONSCRIPT_LINE_FIRE0 npc/conscript/outofway {Len 0.96}
+CONSCRIPT_LINE_FIRE1 npc/conscript/inmyway {Len 1.22}
+CONSCRIPT_LINE_FIRE2 npc/conscript/linesight {Len 1.45}
+CONSCRIPT_LINE_FIRE3 npc/conscript/getshot {Len 0.98}
+//LISE generated no linguistic info for getshot on 12/14/00--can't open on 12/22
+CONSCRIPT_LINE_FIRE4 npc/conscript/move {Len 1.44}
+
+
+
+CONSCRIPT_OK0 npc/conscript/teamup2 {Len 0.88}
+CONSCRIPT_OK1 npc/conscript/dobettertogether {Len 2.30}
+CONSCRIPT_OK2 npc/conscript/imwithyou {Len 1.36}
+CONSCRIPT_OK3 npc/conscript/teamup1 {Len 2.29}
+CONSCRIPT_OK4 npc/conscript/gladtolendhand {Len 2.94}
+CONSCRIPT_OK5 npc/conscript/letsgo {Len 0.92}
+CONSCRIPT_OK6 npc/conscript/letsmoveit {Len 1.99}
+
+CONSCRIPT_WAIT0 npc/conscript/helpothers {Len 2.40}
+CONSCRIPT_WAIT1 npc/conscript/iwaithere {Len 1.06}
+CONSCRIPT_WAIT2 npc/conscript/slowingyoudown {Len 1.40}
+CONSCRIPT_WAIT3 npc/conscript/illwait {Len 1.11}
+CONSCRIPT_WAIT4 npc/conscript/seeya {Len 0.61}
+CONSCRIPT_WAIT5 npc/conscript/standguard {Len 1.67}
+
+//When Conscript's killed something
+CONSCRIPT_KILL0 npc/conscript/ba_gotone {Len 0.82}
+CONSCRIPT_KILL1 npc/conscript/ba_another {Len 1.54}
+CONSCRIPT_KILL2 npc/conscript/ba_buttugly {Len 2.09}
+CONSCRIPT_KILL3 npc/metropolice_new/shooter01 {Len 1.88}
+CONSCRIPT_KILL4 npc/conscript/ba_close {Len 1.67}
+CONSCRIPT_KILL5 npc/conscript/ba_firepl {Len 2.21}
+CONSCRIPT_KILL6 npc/conscript/ba_bring {Len 0.99}
+
+CONSCRIPT_HELLO0 npc/conscript/hellonicesuit {Len 0.40}
+CONSCRIPT_HELLO1 npc/conscript/howdy {Len 0.86}
+CONSCRIPT_HELLO2 npc/conscript/howyoudoing {Len 0.71}
+CONSCRIPT_HELLO3 npc/conscript/haybuddy {Len 0.53}
+CONSCRIPT_HELLO4 npc/conscript/hayfella {Len 0.27}
+CONSCRIPT_HELLO5 npc/conscript/heybuddy {Len 0.53}
+CONSCRIPT_HELLO6 npc/conscript/heyfella {Len 0.27}
+
+CONSCRIPT_QUESTION0 npc/conscript/beertopside {Len 2.42}
+CONSCRIPT_QUESTION1 npc/conscript/wayout {Len 1.60}
+CONSCRIPT_QUESTION2 npc/conscript/getanyworse {Len 2.09}
+CONSCRIPT_QUESTION3 npc/conscript/gladof38 {Len 2.56}
+CONSCRIPT_QUESTION4 npc/conscript/workingonstuff {Len 2.71}
+CONSCRIPT_QUESTION5 npc/conscript/wayout {Len 1.60}
+CONSCRIPT_QUESTION6 npc/conscript/whatsgoingon {Len 2.01}
+CONSCRIPT_QUESTION7 npc/conscript/aintscared {Len 1.16}
+CONSCRIPT_QUESTION8 npc/conscript/nodrill {Len 2.11}
+CONSCRIPT_QUESTION9 npc/conscript/gettingcloser {Len 1.25}
+CONSCRIPT_QUESTION10 npc/conscript/youhearthat {Len 1.86}
+CONSCRIPT_QUESTION11 npc/conscript/crewdied {Len 2.37}
+CONSCRIPT_QUESTION12 npc/conscript/somethingmoves {Len 2.28}
+CONSCRIPT_QUESTION13 npc/conscript/thinking {Len 1.30}
+CONSCRIPT_QUESTION14 npc/conscript/missingleg {Len 3.13}
+
+CONSCRIPT_ANSWER0 npc/conscript/noway {Len 0.96}
+CONSCRIPT_ANSWER1 npc/conscript/ireckon {Len 0.60}
+CONSCRIPT_ANSWER2 npc/conscript/soundsright {Len 0.79}
+CONSCRIPT_ANSWER3 npc/conscript/yessir {Len 0.43}
+CONSCRIPT_ANSWER4 npc/conscript/youbet {Len 0.53}
+CONSCRIPT_ANSWER5 npc/conscript/yougotit {Len 0.60}
+CONSCRIPT_ANSWER6 npc/conscript/yup {Len 0.41}
+CONSCRIPT_ANSWER7 npc/conscript/dontaskme {Len 0.96}
+CONSCRIPT_ANSWER8 npc/conscript/dontbet {Len 0.87}
+CONSCRIPT_ANSWER9 barney/dontbuyit {Len 0.00}
+CONSCRIPT_ANSWER10 npc/conscript/dontfigure {Len 1.31}
+CONSCRIPT_ANSWER11 npc/conscript/dontguess {Len 0.93}
+CONSCRIPT_ANSWER12 npc/conscript/hardtosay {Len 0.92}
+CONSCRIPT_ANSWER13 npc/conscript/justdontknow {Len 0.99}
+CONSCRIPT_ANSWER14 npc/conscript/nope {Len 0.35}
+CONSCRIPT_ANSWER15 npc/conscript/nosir {Len 0.55}
+CONSCRIPT_ANSWER16 npc/conscript/cantfigure {Len 1.16}
+CONSCRIPT_ANSWER17 npc/conscript/maybe {Len 0.47}
+CONSCRIPT_ANSWER18 npc/conscript/notelling {Len 1.03}
+CONSCRIPT_ANSWER19 npc/conscript/bequiet {Len 1.96}
+CONSCRIPT_ANSWER20 npc/conscript/youtalkmuch {Len 1.38}
+CONSCRIPT_ANSWER21 npc/conscript/alreadyasked {Len 1.18}
+
+// player is staring at Conscript
+CONSCRIPT_STARE0 npc/conscript/yup {Len 0.41}
+CONSCRIPT_STARE1 npc/conscript/yessir {Len 0.43}
+CONSCRIPT_STARE2 npc/conscript/howyoudoing {Len 0.71}
+CONSCRIPT_STARE3 npc/conscript/heyfella {Len 0.27}
+
+CONSCRIPT_IDLE0 npc/conscript/whatisthat {Len 1.61}
+CONSCRIPT_IDLE1 npc/conscript/coldone {Len 2.54}
+CONSCRIPT_IDLE2 npc/conscript/guyresponsible {Len 3.40}
+CONSCRIPT_IDLE3 npc/conscript/bigmess {Len 2.67}
+CONSCRIPT_IDLE4 npc/conscript/luckwillturn {Len 2.03}
+CONSCRIPT_IDLE5 npc/conscript/bigplace {Len 2.20}
+CONSCRIPT_IDLE6 npc/conscript/targetpractice {Len 3.26}
+CONSCRIPT_IDLE7 npc/conscript/badfeeling {Len 2.70}
+CONSCRIPT_IDLE8 npc/conscript/ambush {Len 2.42}
+CONSCRIPT_IDLE9 npc/conscript/survive {Len 2.36}
+CONSCRIPT_IDLE10 npc/conscript/stophere {Len 3.13}
+
+CONSCRIPT_ATTACK0 npc/metropolice_new/takedown(e50) {Len 1.49}
+CONSCRIPT_ATTACK1 npc/metropolice_new/shooter02(s50) {Len 1.49}
+CONSCRIPT_ATTACK2 npc/metropolice_new/shooter03 {Len 0.87}
+CONSCRIPT_ATTACK3 npc/metropolice_new/shooter04 {Len 1.61}
+CONSCRIPT_ATTACK4 npc/metropolice_new/shooter05 {Len 1.72}
+CONSCRIPT_ATTACK5 npc/metropolice_new/pointer01 {Len 1.69}
+
+CONSCRIPT_HEAR0 npc/conscript/hearsomething {Len 0.90}
+CONSCRIPT_HEAR1 npc/conscript/icanhear {Len 1.07}
+CONSCRIPT_HEAR2 npc/conscript/soundsbad {Len 1.62}
+
+CONSCRIPT_SMELL0 npc/conscript/somethingdied {Len 2.78}
+CONSCRIPT_SMELL1 npc/conscript/somethingstinky {Len 2.17}
+CONSCRIPT_SMELL2 npc/conscript/stench {Len 1.62}
+
+CONSCRIPT_CUREA npc/conscript/checkwounds {Len 1.61}
+CONSCRIPT_CUREB npc/conscript/youneedmedic {Len 2.09}
+CONSCRIPT_CUREC npc/conscript/realbadwound {Len 3.18}
+
+CONSCRIPT_SCARED0 npc/conscript/donthurtem {Len 1.19}
+CONSCRIPT_SCARED1 npc/conscript/leavealone {Len 2.50}
+
+CONSCRIPT_WOUND0 npc/conscript/imhit {Len 2.05}
+CONSCRIPT_WOUND1 npc/conscript/hitbad {Len 2.23}
+CONSCRIPT_MORTAL0 npc/conscript/imdead {Len 3.90}
+
+//If you shoot Conscript:
+CONSCRIPT_SHOT0 npc/conscript/ba_whoathere {Len 1.37}
+CONSCRIPT_SHOT1 npc/conscript/ba_dotoyou {Len 1.60}
+CONSCRIPT_SHOT2 npc/conscript/ba_watchit {Len 1.37}
+CONSCRIPT_SHOT3 npc/conscript/ba_whatyou {Len 1.20}
+CONSCRIPT_SHOT4 npc/conscript/ba_friends {Len 2.80}
+CONSCRIPT_SHOT5 npc/conscript/ba_pissme {Len 1.77}
+
+//When Conscriptâ€™s really pissed at you:
+CONSCRIPT_MAD0 npc/conscript/ba_stepoff {Len 1.37}
+CONSCRIPT_MAD1 npc/conscript/ba_iwish {Len 1.49}
+CONSCRIPT_MAD2 npc/conscript/ba_uwish {Len 2.72}
+CONSCRIPT_MAD3 npc/conscript/ba_somuch {Len 2.62}
+CONSCRIPT_MAD4 npc/conscript/ba_endline {Len 1.54}
+CONSCRIPT_MAD5 npc/conscript/ba_dontmake {Len 1.77}
+CONSCRIPT_MAD6 npc/conscript/ba_tomb {Len 1.66}

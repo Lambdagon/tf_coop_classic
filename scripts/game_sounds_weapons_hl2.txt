@@ -1519,4 +1519,66 @@
 	"wave"		"weapons/grenade/tick1.wav"
 }
 
+"Weapon_OICW.Reload"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/oicw/oicw_reload.wav"
+}
+
+"Weapon_OICW.NPC_Reload"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/oicw/oicw_reload.wav"
+}
+
+"Weapon_OICW.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/oicw/oicw_fire1.wav"
+}
+
+"Weapon_OICW.NPC_Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/oicw/oicw_fire1.wav"
+}
+
+"Weapon_AR1.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/1ar1/ar1_fire.wav"
+}
+
+"Weapon_AR1.NPC_Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/1ar1/ar1_fire.wav"
+}
+
+"Weapon_AR1.NPC_Double"Weapon_AR1.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+	"wave"		"weapons/1ar1/ar1_fire.wav"
+}
 

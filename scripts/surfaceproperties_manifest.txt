@@ -13,7 +13,7 @@ surfaceproperties_manifest
 	// List additional surface property files here:
 	"file"		"scripts/surfaceproperties_hl2.txt"
 	"file"		"scripts/surfaceproperties_tf.txt"
-	//"file"		"scripts/surfaceproperties_ep2.txt"
+	"file"		"scripts/surfaceproperties_ep2.txt"
 	"file"		"scripts/surfaceproperties_hl1.txt"
 }
 

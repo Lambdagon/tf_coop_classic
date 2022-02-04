@@ -2856,6 +2856,19 @@
 		"wave"		"zombie/claw_strike3.wav"
 	}
 }
+"Zombie.AttackHithls"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/claw_strike1.wav"
+		"wave"		"zombie/hl1/claw_strike2.wav"
+		"wave"		"zombie/hl1/claw_strike3.wav"
+	}
+}
 
 "Zombie.AttackMiss"
 {
@@ -2870,6 +2883,20 @@
 	}
 }
 
+"Zombie.AttackMisshls"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/claw_miss1.wav"
+		"wave"		"zombie/hl1/claw_miss2.wav"
+	}
+}
+
+
 "Zombie.Attack"
 {
 	"channel"	"CHAN_VOICE"
@@ -2880,6 +2907,19 @@
 	{
 		"wave"		"zombie/zo_attack1.wav"
 		"wave"		"zombie/zo_attack2.wav"
+	}
+}
+
+"Zombie.Attackhls"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/zo_attack1.wav"
+		"wave"		"zombie/hl1/zo_attack2.wav"
 	}
 }
 
@@ -2898,6 +2938,21 @@
 	}
 }
 
+"Zombie.Idlehls"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/zo_idle1.wav"
+		"wave"		"zombie/hl1/zo_idle2.wav"
+		"wave"		"zombie/hl1/zo_idle3.wav"
+		"wave"		"zombie/hl1/zo_idle4.wav"
+	}
+}
+
 "Zombie.Alert"
 {
 	"channel"	"CHAN_VOICE"
@@ -2909,6 +2964,20 @@
 		"wave"		"zombie/zo_alert10.wav"
 		"wave"		"zombie/zo_alert20.wav"
 		"wave"		"zombie/zo_alert30.wav"
+	}
+}
+
+"Zombie.Alerthls"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/zo_alert10.wav"
+		"wave"		"zombie/hl1/zo_alert20.wav"
+		"wave"		"zombie/hl1/zo_alert30.wav"
 	}
 }
 
@@ -2925,6 +2994,18 @@
 	}
 }
 
+"Zombie.Painhls"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"zombie/hl1/zo_pain1.wav"
+		"wave"		"zombie/hl1/zo_pain2.wav"
+	}
+}
 
 "metal_barrel.impact"
 {

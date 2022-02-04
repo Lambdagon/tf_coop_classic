@@ -15,11 +15,11 @@ soundscapes_manifest
 		
 	//EP2
 	"file"		"scripts/soundscapes_lostcoast.txt"
-	//"file"		"scripts/soundscapes_citadel_episodic.txt"
-	//"file"		"scripts/soundscapes_city_episodic.txt"
-	//"file"		"scripts/soundscapes_silo.txt"
-	//"file"		"scripts/soundscapes_outland.txt"	
-	//"file"		"scripts/soundscapes_outland2.txt"
+	"file"		"scripts/soundscapes_citadel_episodic.txt"
+	"file"		"scripts/soundscapes_city_episodic.txt"
+	"file"		"scripts/soundscapes_silo.txt"
+	"file"		"scripts/soundscapes_outland.txt"	
+	"file"		"scripts/soundscapes_outland2.txt"
 		
 	//HL2
 	"file"		"scripts/soundscapes_canals.txt"

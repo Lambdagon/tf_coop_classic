@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Feb 02 22:59:36 AM
+// File generated:  Fri Apr 14 15:21:29 AM
 //
 //
 // Cvar	-	Setting
@@ -52,21 +52,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_classautokill"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_medigun_autoheal"
 	{
 		"#TF_medigun_autoheal"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_autorezoom"
 	{
 		"#TF_autozoom"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_takesshots"
