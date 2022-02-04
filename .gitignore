@@ -1,0 +1,11 @@
+
+cfg/config.cfg
+cfg/server_blacklist.txt
+cfg/settings.scr
+console.log
+demoheader.tmp
+media/viewed.res
+modelsounds.cache
+tf2_playerstats.dmx
+sound/sound.cache
+ServerConfig.vdf
