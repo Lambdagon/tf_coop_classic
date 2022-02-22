@@ -63,11 +63,7 @@ media/viewed.res
 media\viewed.res
 
 materials\vgui\logos\ui\*
-materials\vgui\logos\*
 materials/vgui/logos/ui/spray.vmt
 downloadlists/d1_canals_05.lst
 *.cache
-downloadlists/d3_c17_03.lst
-ServerConfig.vdf
-sound/sound.cache
 downloadlists/d3_c17_03.lst
