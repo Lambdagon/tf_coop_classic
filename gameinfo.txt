@@ -44,7 +44,11 @@
 			game				"|all_source_engine_paths|../Half-Life 2/ep2"			
 			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_sound_vo_english.vpk"
 			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_pak.vpk"
-			//game				"|all_source_engine_paths|../Half-Life 2/episodic"		
+			//game				"|all_source_engine_paths|../Half-Life 2/episodic"
+			game				|all_source_engine_paths|../Half-Life 2/hl1/hl1_textures.vpk
+			game				|all_source_engine_paths|../Half-Life 2/hl1/hl1_sound_vo_english.vpk
+			game				|all_source_engine_paths|../Half-Life 2/hl1/hl1_sound_misc.vpk
+			game				|all_source_engine_paths|../Half-Life 2/hl1/hl1_misc.vpk
 			game_lv				hl2/hl2_lv.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 

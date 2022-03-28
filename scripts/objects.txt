@@ -62,7 +62,7 @@ objects
 		StatusName			"#TF_Object_Tele_Entrance"
 		BuildTime			20
 		MaxObjects			1
-		Cost				50
+		Cost				125
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -81,7 +81,7 @@ objects
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Teleporter.Explode"
 		ExplodeEffect		"ExplosionCore_buildings"
-		MetalToDropInGibs	25
+		MetalToDropInGibs	60
 	}
 	
 	OBJ_TELEPORTER_EXIT
@@ -90,7 +90,7 @@ objects
 		StatusName			"#TF_Object_Tele_Exit"
 		BuildTime			20
 		MaxObjects			1
-		Cost				50
+		Cost				125
 		CostMultiplier		1
 		UpgradeCost			0
 		MaxUpgradeLevel		0
@@ -109,7 +109,7 @@ objects
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Teleporter.Explode"
 		ExplodeEffect		"ExplosionCore_buildings"
-		MetalToDropInGibs	25
+		MetalToDropInGibs	60
 	}
 	
 	OBJ_ATTACHMENT_SAPPER

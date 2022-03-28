@@ -1,39 +1,42 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"		"Nail-Gun"
+	"printname"		"#TF_Weapon_Pistol"
 	"BuiltRightHanded"	"0"
 	"weight"		"2"
 	"WeaponType"		"secondary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
-	
 	// Attributes TF.
-	"Damage"		"18"
-	"Range"			"8192"
+	"Damage"		"15"
+	"Range"			"4096"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.0"
-	"TimeFireDelay"		"0.1"
-	"ProjectileType"	"projectile_syringe"
-	"HasTeamSkins_Viewmodel"		"0"
+	"Spread"		"0.04"
+	"TimeFireDelay"		"0.15"
+	"TimeIdle"		"5.0"
+	"TimeIdleEmpty"		"0.25"
+	"TimeReload"		"0.5"
+	"ProjectileType"	"projectile_bullet"
+	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
-	"HasTeamSkins_Worldmodel"	"1"
-
+	"TracerEffect"		"bullet_pistol_tracer01"
 
 	// Ammo & Clip.
 	"primary_ammo"		"TF_AMMO_SECONDARY"
 	"secondary_ammo"	"None"
-	clip_size		20
-	default_clip		20
+	clip_size		12
+	default_clip		12
 
 	// Buckets.
 	"bucket"		"1"
 	"bucket_position"	"0"
 
 	// Animation.
-	"viewmodel"     	"models/weapons/v_models/v_nailgun_scout.mdl"
-	"playermodel"		"models/w_nailgun.mdl"
+	"viewmodel"		"models/weapons/v_models/v_pistol_scout.mdl"
+	"playermodel"		"models/weapons/w_models/w_pistol.mdl"
 	"anim_prefix"		"ac"
+	"CanTakeAmmoFromEngi"	"1"
+	"AmmoFromEngi"	"12"
 
 	// Muzzleflash
 	"MuzzleFlashParticleEffect" "muzzle_pistol"
@@ -42,10 +45,10 @@ WeaponData
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"reload"			"Weapon_SyringeGun.WorldReload"
-		"empty"			"Weapon_NailGun.ClipEmpty"	
-		"single_shot"		"Weapon_NailGun.Single"
-		"burst"			"Weapon_Nailgun.SingleCrit"
+		"reload"			"Weapon_Pistol.WorldReload"
+		"empty"			"Weapon_Pistol.ClipEmpty"	
+		"single_shot"		"Weapon_Pistol.Single"
+		"burst"			"Weapon_Pistol.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -53,7 +56,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_nailgun"
+				"file"		"sprites/bucket_pistol"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -61,7 +64,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_nailgun"
+				"file"		"sprites/bucket_pistol"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
