@@ -2,7 +2,7 @@
 {
 	"d1_town_01"
 	{
-		"viewed"		"5"
+		"viewed"		"6"
 	}
 	"d2_coast_01"
 	{
@@ -30,6 +30,14 @@
 	}
 	"d1_canals_01"
 	{
-		"viewed"		"16"
+		"viewed"		"21"
+	}
+	"d1_eli_01"
+	{
+		"viewed"		"3"
+	}
+	"d1_eli_02_fix"
+	{
+		"viewed"		"1"
 	}
 }
