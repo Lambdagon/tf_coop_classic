@@ -18,3 +18,4 @@ stuffcmds
 //startupmenu
 
 sv_unlockedchapters 99
+mp_waiting_for_players_cancel 1 

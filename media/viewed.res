@@ -2,7 +2,7 @@
 {
 	"d1_town_01"
 	{
-		"viewed"		"6"
+		"viewed"		"13"
 	}
 	"d2_coast_01"
 	{

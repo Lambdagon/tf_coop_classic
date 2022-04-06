@@ -1,11 +1,1 @@
-Welcome to Team Fortress 2
-
-Our map rotation is:
-- Gravel Pit
-- Dustbowl
-- Granary
-- Well (CP)
-- 2Fort
-- Hydro
-- Well (CTF)
-- Badlands
+Welcome to Lambda Fortress Classic!
