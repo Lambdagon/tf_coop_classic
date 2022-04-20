@@ -18,6 +18,27 @@
 		"resfile"		"scripts/screens/vgui_test_screen.res"
 	}
 
+	"teleport_countdown_screen"
+	{
+		// Defined in c_info_teleporter_countdown.cpp
+		"type"			"teleport_countdown_screen"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	480
+		"pixelshigh"	240
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/teleport_countdown_screen.res"
+	}
+
+	"jalopy_radar_panel"
+	{
+		"type"			"jalopy_radar_panel"
+		"pixelswide"		"128"
+		"pixelshigh"		"128"
+		"resfile"		"scripts/screens/jalopy_radar_panel.res"
+	}
+
 	// de-funked
 	"pda_panel"
 	{
@@ -60,10 +81,37 @@
 		"type"			"pda_panel_spy_invis"
 		"pixelswide"	280
 		"pixelshigh"	100
-		"acceptsinput"  1
+		"acceptsinput"  0
 		"resfile"		"scripts/screens/pda_spy_invis.res"
 	}
-	
+
+	"pda_panel_spy_invis_pocket"
+	{
+		"type"			"pda_panel_spy_invis_pocket"
+		"pixelswide"	280
+		"pixelshigh"	100
+		"acceptsinput"  0
+		"resfile"		"scripts/screens/pda_spy_invis_pocket.res"
+	}
+
+	"pda_panel_spy_invis_pocket_ttg"
+	{
+		"type"			"pda_panel_spy_invis_pocket_ttg"
+		"pixelswide"	280
+		"pixelshigh"	100
+		"acceptsinput"  0
+		"resfile"		"scripts/screens/pda_spy_invis_pocket_ttg.res"
+	}
+
+	"pda_panel_spy_invis_pocket_hm"
+	{
+		"type"			"pda_panel_spy_invis_pocket_hm"
+		"pixelswide"	280
+		"pixelshigh"	100
+		"acceptsinput"  0
+		"resfile"		"scripts/screens/pda_spy_invis_pocket_hm.res"
+	}
+
 	"screen_obj_dispenser_red"
 	{
 		"type"			"screen_obj_dispenser_red"

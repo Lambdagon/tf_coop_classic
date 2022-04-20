@@ -1,0 +1,106 @@
+"Resource/UI/Achievements.res"
+{
+	"Achievements"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"Achievements"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+
+	"Title"
+	{
+		"fieldName"				"Title"
+		"xpos"					"c-266"
+		"ypos"					"81"
+		"wide"					"250"
+		"tall"					"19"
+		"zpos"					"5"
+		"font"					"DefaultExtraLarge"
+		"textAlignment"			"west"
+		"ControlName"			"Label"
+		"labelText"				"#TF_Achievements_Title"
+		"fgcolor_override"		"224 224 224 255"
+	}
+
+	"ProTotalProgress" 
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ProTotalProgress"
+		"xpos"					"c-85"
+		"ypos"					"365"
+		"wide"					"170"
+		"zpos"					"1"
+		"tall"					"14"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"	
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"proportionalToParent"	"1"
+		"bgcolor_override"		"100 100 100 128"
+	}
+
+	"LblComplete" 
+	{
+		"ControlName"			"Label"
+		"fieldName"				"LblComplete"
+		"xpos"					"c-100"
+		"ypos"					"375"
+		"wide"					"200"
+		"zpos"					"1"
+		"tall"					"24"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"	
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"proportionalToParent"	"1"
+		"textAlignment"			"center"
+		"font"					"DefaultShadowed"
+		"fgcolor_override"		"TFOrangeBright"
+	}
+
+	"GplAchievements"
+	{
+		"ControlName"			"GenericPanelList"
+		"fieldName"				"GplAchievements"
+		"xpos"					"c-226"
+		"ypos"					"110"
+		"wide"					"450"	
+		"tall"					"250"
+		"zpos"					"1"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"1"
+		"proportionalToParent"	"1"
+
+		"bgcolor_override" "0 0 0 128"
+	}
+
+	"BtnCancel"
+	{
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnCancel"
+		"xpos"					"c-264"
+		"ypos"					"r50"
+		"wide"					"117"
+		"tall"					"27"
+		"zpos"					"5"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#GameUI_Back"
+		"command"				"Back"
+		"textAlignment"			"center"
+		"font"					"DefaultMedium"
+		"fgcolor_override"		"Gray"
+	}
+}

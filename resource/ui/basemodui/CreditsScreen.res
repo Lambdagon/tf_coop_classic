@@ -1,0 +1,72 @@
+"Resource/UI/CreditsScreen.res"
+{
+	"CreditsScreen"
+	{
+		"ControlName"		"Frame"
+		"fieldName"			"CreditsScreen"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+	}
+	
+	"Title"
+	{
+		"fieldName"			"Title"
+		"xpos"				"c-266"
+		"ypos"				"81"
+		"wide"				"150"
+		"tall"				"19"
+		"zpos"				"5"
+		"font"				"DefaultExtraLarge"
+		"textAlignment"		"west"
+		"ControlName"		"Label"
+		"labelText"			"#MMenu_Credits"
+		"fgcolor_override"	"224 224 224 255"
+	}
+
+	"CreditText"
+	{
+		"ControlName"		"RichText"
+		"fieldName"			"CreditText"
+		"font"				"DefaultShadowed"
+		"xpos"				"c-300"
+		"ypos"				"125"
+		"zpos"				"5"
+		"wide"				"600"
+		"tall"				"250"
+		"autoResize"		"3"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"paintborder"		"0"
+		"textAlignment"		"northwest"
+		"fgcolor"			"Grey"
+		"bgcolor"			"26 23 22 100"
+		"textfile"			"credits.txt"
+	}
+	
+	"BtnBack"
+	{
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnBack"
+		"xpos"					"c-264"
+		"ypos"					"r23"
+		"wide"					"117"
+		"tall"					"27"
+		"zpos"					"5"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#GameUI_Back"
+		"command"				"vguicancel"
+		"textAlignment"			"center"
+		"font"					"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
+	}
+}

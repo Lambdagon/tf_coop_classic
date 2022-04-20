@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_medic"
+		"text"			"#ClassTips_5_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_5_2"
 	}
 	
 	"classModel"

@@ -2,7 +2,7 @@
 {
 	// Original shader: BaseTimesVertexColorAlphaBlendNoOverbright
 	"$translucent" 1
-	"$basetexture" "VGUI/logos/spray"
+	"$basetexture" "VGUI\logos\spray"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	"$no_fullbright" 1

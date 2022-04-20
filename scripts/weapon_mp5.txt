@@ -6,6 +6,7 @@ WeaponData
 	"printname"		"9mm AR"
 	"viewmodel"		"models/v_9mmAR.mdl"
 	"playermodel"		"models/w_9mmAR.mdl"
+	"playermodel_hl1_hd"	"models/w_9mmAR_hd.mdl"
 	"anim_prefix"		"mp5"
 	"bucket"		"2"
 	"bucket_position"	"0"

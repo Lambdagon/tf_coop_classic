@@ -61,7 +61,7 @@
 		
 	"Offense"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
 		"xpos"			"c-300"
 		"xpos_hidef"			"c-287"
@@ -175,7 +175,7 @@
 	
 	"Defense"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
 		"xpos"			"c-110"
 		"xpos_hidef"			"c-105"
@@ -285,7 +285,7 @@
 	
 	"Support"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
 		"xpos"			"c76"
 		"xpos_hidef"			"c74"
@@ -395,16 +395,37 @@
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_spy_red"
 		"inactiveimage"		"class_sel_sm_spy_inactive"
-	}	
+	}
 
-	"CancelButton" [$WIN32] 
+	"LoadoutButton"
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"LoadoutButton"
+		"xpos"			"r350"
+		"ypos"			"r40"
+		"ypos_lodef"			"r64"
+		"zpos"			"8"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Edit_Loadout"
+		"textAlignment"	"center"
+		"Command"		"showloadout"
+		"font"			"HudFontSmallBold"
+	}
+
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"r190"
 		"ypos"			"r40"
 		"ypos_lodef"			"r64"
-		"zpos"			"6"
+		"zpos"			"8"
 		"wide"			"150"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -415,12 +436,12 @@
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 	}
 
 	"ClassMenuSelect"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
 		"xpos"			"30"
 		"xpos_lodef"			"62"
@@ -470,7 +491,7 @@
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
-	}	
+	}
 
 	"ShadedBar"
 	{
@@ -492,51 +513,7 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}		
-	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
+	}
 	
 	"countImage0" [$WIN32]
 	{
@@ -705,7 +682,7 @@
 	
 	"CountLabel" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
 		"xpos"			"c-30"
 		"ypos"			"402"
@@ -725,7 +702,7 @@
 	
 	"numScout" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
 		"xpos"			"c-300"
 		"ypos"			"10"
@@ -745,7 +722,7 @@
 	
 	"numSoldier" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"xpos"			"c-250"
 		"ypos"			"10"
@@ -765,7 +742,7 @@
 	
 	"numPyro" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
 		"xpos"			"c-200"
 		"ypos"			"10"
@@ -785,7 +762,7 @@
 	
 	"numDemoman" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
 		"xpos"			"c-110"
 		"ypos"			"10"
@@ -805,7 +782,7 @@
 	
 	"numHeavy" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
 		"xpos"			"c-60"
 		"ypos"			"10"
@@ -825,7 +802,7 @@
 	
 	"numEngineer" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"xpos"			"c-10"
 		"ypos"			"10"
@@ -845,7 +822,7 @@
 	
 	"numMedic" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
 		"xpos"			"c78"
 		"ypos"			"10"
@@ -865,7 +842,7 @@
 	
 	"numSniper" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"xpos"			"c128"
 		"ypos"			"10"
@@ -885,7 +862,7 @@
 	
 	"numSpy" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
 		"xpos"			"c178"
 		"ypos"			"10"

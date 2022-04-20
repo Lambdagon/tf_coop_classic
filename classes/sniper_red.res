@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_sniper"
+		"text"			"#ClassTips_2_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_2_2"
 	}
 	
 	"classModel"

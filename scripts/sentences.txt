@@ -1,4 +1,4 @@
-// HALF-LIFE 2 SPEECH SYSTEM SENTENCES.
+﻿// HALF-LIFE 2 SPEECH SYSTEM SENTENCES.
 // Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
 // Sounds prefixed by "Q_" will be queued up for a while and played as soon as the NPC is allowed to speak
 
@@ -402,6 +402,242 @@ COMBINE_CHECK0 npc/combine_soldier/vo/(v30) on1 stayalertreportsightlines off3 {
 COMBINE_CHECK1 npc/combine_soldier/vo/(v30) on2 reportallpositionsclear off3 {Len 1.63}
 COMBINE_CHECK2 npc/combine_soldier/vo/(v30) on1 reportallradialsfree off3 {Len 1.63}
 
+
+// Combine Soilder Synth
+
+
+//PAIN
+COMBINE_SYNTH_PAIN0 npc/combine_soldier_synth/pain1 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_SYNTH_PAIN1 npc/combine_soldier_synth/pain2 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_SYNTH_PAIN2 npc/combine_soldier_synth/pain3 {Len 0.26 closecaption NPC_Combine.Pain}
+
+//DIE
+COMBINE_SYNTH_DIE0 npc/combine_soldier_synth/die1 V_IDIEDS {Len 0.62 closecaption NPC_Combine.Death}
+COMBINE_SYNTH_DIE1 npc/combine_soldier_synth/die2 V_IDIEDS {Len 0.92 closecaption NPC_Combine.Death}
+COMBINE_SYNTH_DIE2 npc/combine_soldier_synth/die3 V_IDIEDS {Len 0.80 closecaption NPC_Combine.Death}
+
+
+//KICK
+COMBINE_SYNTH_KICK0 npc/combine_soldier_synth/kick1 {Len 0.26}
+COMBINE_SYNTH_KICK1 npc/combine_soldier_synth/kick2 {Len 0.31}
+
+
+// I am about to start shooting
+// Marc, for any sentences you want to caption, just add the closecaption entry to the {Len} block as below
+// COMBINE_SYNTH_ANNOUNCE0 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption}
+// To use a specified caption string, put it's name in there, too
+// COMBINE_SYNTH_ANNOUNCE0 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption NPCSound.Caption}
+
+COMBINE_SYNTH_ANNOUNCE0 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ANNOUNCE1 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS gosharp off2 {Len 1.22 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ANNOUNCE2 npc/combine_soldier_synth/vo/(v100) on2 V_MYNAMES V_MYNUMS prosecuting off1 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ANNOUNCE3 npc/combine_soldier_synth/vo/(v100) on2 V_MYNAMES V_MYNUMS engaging off1 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ANNOUNCE4 npc/combine_soldier_synth/vo/(v100) on2 cover off1 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// My enemy is close and I can see him
+
+COMBINE_SYNTH_ASSAULT0 npc/combine_soldier_synth/vo/(v100) on1 contact V_G0_PLAYERS off1 {Len 0.87 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ASSAULT1 npc/combine_soldier_synth/vo/(v100) on1 contactconfirmprosecuting off1 {Len 1.23 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ASSAULT2 npc/combine_soldier_synth/vo/(v100) on2 contactconfim off1 {Len 1.08 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ASSAULT3 npc/combine_soldier_synth/vo/(v100) on2 targetmyradial V_DIRS degrees off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// I am moving in
+
+COMBINE_SYNTH_FLANK0 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS closing off1 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK1 npc/combine_soldier_synth/vo/(v100) on2 V_MYNAMES V_MYNUMS inbound off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK2 npc/combine_soldier_synth/vo/(v100) on1 movein off2 {Len 1.15  closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK3 npc/combine_soldier_synth/vo/(v100) on2 V_MYNAMES V_MYNUMS sweepingin off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK4 npc/combine_soldier_synth/vo/(v100) on1 coverme off1 {Len 1.15  closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK5 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES unitisclosing off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK6 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES unitisinbound off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_FLANK7 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES unitismovingin off1 {Len 1.15 closecaption NPC_Combine.Coord}
+
+
+// I am still alert and pursuing enemy
+
+COMBINE_SYNTH_GO_ALERT0 npc/combine_soldier_synth/vo/(v100) on1 alert1 off1 {Len 0.77  closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_GO_ALERT1 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS executingfullresponse off1 {Len 0.77 closecaption NPC_Combine.Coord}
+
+// UNDONE: Nobody has seen enemy in 10 seconds
+
+COMBINE_SYNTH_LOST_LONG0 npc/combine_soldier_synth/vo/(v100) on1 targetblackout off1 {Len 1.14 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG1 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS lostcontact off1 {Len 1.08 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG2 npc/combine_soldier_synth/vo/(v100) on1 motioncheckallradials off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG3 npc/combine_soldier_synth/vo/(v100) on1 stayalertreportsightlines off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG4 npc/combine_soldier_synth/vo/(v100) on1 overwatch, teamdeployedandscanning off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG5 npc/combine_soldier_synth/vo/(v100) on1 overwatch, V_MYNAMES V_MYNUMS engagedincleanup off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_LONG6 npc/combine_soldier_synth/vo/(v100) on1 readyweapons, stayalert off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+
+// UNDONE: Nobody has seen enemy in 5 seconds
+
+COMBINE_SYNTH_LOST_SHORT0 npc/combine_soldier_synth/vo/(v100) on1 targetisat shaddow4 off1 {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_SHORT1 npc/combine_soldier_synth/vo/(v100) on1 readyextractors off1 {Len 1.19 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_SHORT2 npc/combine_soldier_synth/vo/(v100) on1 readycharges off1 {Len 1.13 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_SHORT3 npc/combine_soldier_synth/vo/(v100) on1 fixsightlinesmovein  off1 {Len 1.13 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_LOST_SHORT4 npc/combine_soldier_synth/vo/(v100) on1 on1 containmentproceeding off1 {Len 0.98 closecaption NPC_Combine.RadioChatter}
+
+// I just saw a friendly die
+
+COMBINE_SYNTH_MAN_DOWN0 npc/combine_soldier_synth/vo/(v100) on1 V_WHODIEDS onedown onedown off1 {Len 1.28 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MAN_DOWN1 npc/combine_soldier_synth/vo/(v100) on1 V_WHODIEDS onedutyvacated off1 {Len 1.41 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MAN_DOWN2 npc/combine_soldier_synth/vo/(v100) on2 heavyresistance off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MAN_DOWN3 npc/combine_soldier_synth/vo/(v100) on1 overwatchrequestreinforcement off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MAN_DOWN4 npc/combine_soldier_synth/vo/(v100) on1 V_WHODIEDS onedown, hardenthatposition off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// UNDONE: Just found enemy after lost long
+
+COMBINE_SYNTH_REFIND_ENEMY0 npc/combine_soldier_synth/vo/(v100) on1 target V_G0_PLAYERS, goactiveintercept off1 {Len 0.77 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_REFIND_ENEMY1 npc/combine_soldier_synth/vo/(v100) on2 gosharp range V_DISTS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_REFIND_ENEMY2 npc/combine_soldier_synth/vo/(v100) on2 targetcontactat V_GRIDXS dash V_GRIDYS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_REFIND_ENEMY3 npc/combine_soldier_synth/vo/(v100) on2 viscon viscon(p110), range V_DISTS, bearing V_DIRS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// I am throwing a grenade
+
+COMBINE_SYNTH_THROW_GRENADE0 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS extractoraway off1 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_SYNTH_THROW_GRENADE1 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS extractorislive off1 {Len 1.33 closecaption NPC_Combine.Grenade}
+COMBINE_SYNTH_THROW_GRENADE2 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS flush sharpzone off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+COMBINE_SYNTH_THROW_GRENADE3 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS extractoraway sharpzone off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+COMBINE_SYNTH_THROW_GRENADE4 npc/combine_soldier_synth/vo/(v100) on1. six, five, four, three, two, one, flash flash(p105) flash(p110) off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+
+//COMBINE_SYNTH_THROW1 npc/combine_soldier_synth/vo/on1 (t30) take!(e75) this!(e100 t0) off1 {Len 1.03}
+//COMBINE_SYNTH_THROW2 npc/combine_soldier_synth/vo/(v10) on1(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) off1 {Len 1.37}
+
+// Enemy Grenade lands nearby (one man only)
+
+COMBINE_SYNTH_GREN0 npc/combine_soldier_synth/vo/(v100) on1(p120) bouncerbouncer off1 {Len 1.17 closecaption NPC_Combine.Grenade}
+COMBINE_SYNTH_GREN1 npc/combine_soldier_synth/vo/(v100) on1(p120) flaredown off1 {Len 1.17 closecaption NPC_Combine.Grenade}
+ 
+// Something dangerous nearby, need to run
+
+COMBINE_SYNTH_DANGER0 npc/combine_soldier_synth/vo/(v100) on1(p120) displace off1 {Len 1.17}
+COMBINE_SYNTH_DANGER1 npc/combine_soldier_synth/vo/(v100) on1(p120) displace2 off3 {Len 1.17}
+COMBINE_SYNTH_DANGER2 npc/combine_soldier_synth/vo/(v100) on1(p120) ripcordripcord off1 {Len 1.17}
+
+// Player Alert - first contact and I'm the squad leader
+
+COMBINE_SYNTH_ALERT0 npc/combine_soldier_synth/vo/(v100) on2(p110) contactconfim V_G0_PLAYERS, range V_DISTS meters, bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT1 npc/combine_soldier_synth/vo/(v100) on1(p110) gosharpgosharp, V_DISTS meters off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT2 npc/combine_soldier_synth/vo/(v100) on2(p110) callcontacttarget1, grid V_GRIDXS dash V_GRIDYS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT3 npc/combine_soldier_synth/vo/(v100) on1(p110) targetisat V_DISTS meters bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT4 npc/combine_soldier_synth/vo/(v100) on1(p110) targetmyradial V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT5 npc/combine_soldier_synth/vo/(v100) on2(p110) contact V_G0_PLAYERS off3 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT6 npc/combine_soldier_synth/vo/(v100) on1(p110) targetcontactat V_DISTS meters, bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT7 npc/combine_soldier_synth/vo/(v100) on2(p110) designatetargetas V_G0_PLAYERS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT8 npc/combine_soldier_synth/vo/(v100) on1(p110) contactconfirmprosecuting off2 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_ALERT9 npc/combine_soldier_synth/vo/(v100) on1(p110) contactconfim, designatetargetas V_G0_PLAYERS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+
+// last soldier's hit damaged player significantly
+
+COMBINE_SYNTH_PLAYERHIT0 npc/combine_soldier_synth/vo/(v100) targetcompromisedmovein off1 {Len 1.13}
+COMBINE_SYNTH_PLAYERHIT1 npc/combine_soldier_synth/vo/(v100) affirmativewegothimnow off1 {Len 1.13}
+COMBINE_SYNTH_PLAYERHIT2 npc/combine_soldier_synth/vo/(v100) thatsitwrapitup off2 {Len 1.13}
+
+// Monster Alert - first contact and I'm the squad leader
+
+COMBINE_SYNTH_MONST0 npc/combine_soldier_synth/vo/(v100) confirmsectornotsterile off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST1 npc/combine_soldier_synth/vo/(v100) visualonexogens off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST2 npc/combine_soldier_synth/vo/(v100) overwatch sector V_SECTORS infected off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// Monster Alert - by type
+
+COMBINE_SYNTH_MONST_BUGS0 npc/combine_soldier_synth/vo/(v100) confirmsectornotsterile off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_BUGS1 npc/combine_soldier_synth/vo/(v100) swarmoutbreakinsector V_SECTORS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_BUGS2 npc/combine_soldier_synth/vo/(v100) overwatch, weareinaninfestationzone, sector V_SECTORS off2 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_BUGS3 npc/combine_soldier_synth/vo/(v100) overwatch, wehavenontaggedviromes, grid V_GRIDXS dash V_GRIDYS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_SYNTH_MONST_CITIZENS0 npc/combine_soldier_synth/vo/(v100) outbreak off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_SYNTH_MONST_CHARACTER0 npc/combine_soldier_synth/vo/(v100) target, prioritytwoescapee off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_CHARACTER1 npc/combine_soldier_synth/vo/(v100) outbreakstatusiscode hurricane off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_SYNTH_MONST_ZOMBIES0 npc/combine_soldier_synth/vo/(v100) necrotics off3 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_ZOMBIES1 npc/combine_soldier_synth/vo/(v100) necroticsinbound off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_ZOMBIES2 npc/combine_soldier_synth/vo/(v100) overwatch, weareinaninfestationzone, sector V_SECTORS off2 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_SYNTH_MONST_PARASITES0 npc/combine_soldier_synth/vo/(v100) callcontactparasitics off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_SYNTH_MONST_PARASITES1 npc/combine_soldier_synth/vo/(v100) overwatch, wehavefreeparasites, sector V_SECTORS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// I killed a monster
+
+COMBINE_SYNTH_KILL_MONST0 npc/combine_soldier_synth/vo/(v100) V_SEQGLOBNBRS cleaned off1 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_KILL_MONST1 npc/combine_soldier_synth/vo/(v100) V_SEQGLOBNBRS sterilized off3 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_KILL_MONST2 npc/combine_soldier_synth/vo/(v100) V_SEQGLOBNBRS contained off1 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+
+// I was hit and it hurt. I'm taking cover (commented out in code)
+
+COMBINE_SYNTH_COVER0 npc/combine_soldier_synth/vo/(v100) on1 coverhurt off1 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_COVER1 npc/combine_soldier_synth/vo/(v100) on1 displace2 off1 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_COVER2 npc/combine_soldier_synth/vo/(v100) on2 V_MYNAMES V_MYNUMS requestmedical off1 {Len 0.95 closecaption NPC_Combine.Coord}
+COMBINE_SYNTH_COVER3 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS requeststimdose off1 {Len 0.95 closecaption NPC_Combine.Coord}
+
+
+// I took damage but it didn't hurt much (commented out in code)
+
+COMBINE_SYNTH_TAUNT0 npc/combine_soldier_synth/vo/(v100) on1(p110) targetineffective off1(p120) on1 {Len 1.32}
+COMBINE_SYNTH_TAUNT1 npc/combine_soldier_synth/vo/(v100) on2(p110) bodypackholding off2(p120) on1 {Len 1.32}
+COMBINE_SYNTH_TAUNT2 npc/combine_soldier_synth/vo/(v100) on1(p110) V_MYNAMES V_MYNUMS, fullactive off1(p120) on1 {Len 1.32}
+
+// I'm the last guy in the squad
+
+COMBINE_SYNTH_LAST_OF_SQUAD0 npc/combine_soldier_synth/vo/(v100) on2 overwatchrequestreserveactivation off1 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD1 npc/combine_soldier_synth/vo/(v100) on1 overwatch, sectorisnotsecure off3 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD2 npc/combine_soldier_synth/vo/(v100) on1 sector V_SECTORS, outbreak outbreak(p105) outbreak(p110) off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD3 npc/combine_soldier_synth/vo/(v100) on1 V_MYNAMES V_MYNUMS isfinalteamunitbackup off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD4 npc/combine_soldier_synth/vo/(v100) on1 overwatchteamisdown off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD5 npc/combine_soldier_synth/vo/(v100) on2 overwatchsectoroverrun off2 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD6 npc/combine_soldier_synth/vo/(v100) on1 overwatchrequestskyshield off1 {Len 0.95 closecaption NPC_Combine.Last}
+COMBINE_SYNTH_LAST_OF_SQUAD7 npc/combine_soldier_synth/vo/(v100) on1 overwatchrequestwinder off1 {Len 0.95 closecaption NPC_Combine.Last}
+
+// player is dead
+
+COMBINE_SYNTH_PLAYER_DEAD0 npc/combine_soldier_synth/vo/(v100) on1 overwatchconfirmhvtcontained off3 {Len 0.82}
+COMBINE_SYNTH_PLAYER_DEAD1 npc/combine_soldier_synth/vo/(v100) on1 overwatchtarget1sterilized off1 {Len 1.87}
+COMBINE_SYNTH_PLAYER_DEAD2 npc/combine_soldier_synth/vo/(v100) on2 overwatchtargetcontained off2 {Len 1.38}
+COMBINE_SYNTH_PLAYER_DEAD3 npc/combine_soldier_synth/vo/(v100) on2 overwatch, stabilizationteamhassector off1 {Len 1.38}
+COMBINE_SYNTH_PLAYER_DEAD4 npc/combine_soldier_synth/vo/(v100) on2 overwatch, V_G0_PLAYERS secure off3 {Len 1.38}
+COMBINE_SYNTH_PLAYER_DEAD5 npc/combine_soldier_synth/vo/(v100) on1 overwatch, V_G0_PLAYERS delivered off1 {Len 1.38}
+COMBINE_SYNTH_PLAYER_DEAD6 npc/combine_soldier_synth/vo/(v100) on1 overwatch, antiseptic administer off1 {Len 1.38}
+
+// Idle statement - my status, no enemy
+
+COMBINE_SYNTH_IDLE0 npc/combine_soldier_synth/vo/(v30) on1 V_RNDNAMES V_RNDCODES V_RNDNUMS dash V_RNDNUMS off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_IDLE1 npc/combine_soldier_synth/vo/(v30) on1 overwatchreportspossiblehostiles off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_IDLE2 npc/combine_soldier_synth/vo/(v30) on1 ovewatchorders3ccstimboost off2 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_IDLE3 npc/combine_soldier_synth/vo/(v30) on2 stabilizationteamholding off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_IDLE4 npc/combine_soldier_synth/vo/(v30) on1 V_MYNAMES V_MYNUMS standingby] off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+
+// I'm asking a question while idle, which may be answered with affirmative
+
+COMBINE_SYNTH_QUEST0 npc/combine_soldier_synth/vo/(v30) on1 readyweaponshostilesinbound off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_QUEST1 npc/combine_soldier_synth/vo/(v30) on1 prepforcontact off3(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_QUEST2 npc/combine_soldier_synth/vo/(v30) on2 skyshieldreportslostcontact, readyweapons off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_QUEST3 npc/combine_soldier_synth/vo/(v30) on2 stayalert off3(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_QUEST4 npc/combine_soldier_synth/vo/(v30) on2 weaponsoffsafeprepforcontact off2(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_SYNTH_QUEST5 npc/combine_soldier_synth/vo/(v30) on1 overwatch isatcode V_RNDCODES V_RNDNUMS off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+
+// Answering affirmative
+
+COMBINE_SYNTH_ANSWER0 npc/combine_soldier_synth/vo/(v30) on1 affirmative off1 {Len 1.57}
+COMBINE_SYNTH_ANSWER1 npc/combine_soldier_synth/vo/(v30) on1 copy off1 {Len 1.57}
+COMBINE_SYNTH_ANSWER2 npc/combine_soldier_synth/vo/(v30) on2 copythat off3 {Len 1.57}
+COMBINE_SYNTH_ANSWER3 npc/combine_soldier_synth/vo/(v30) on1 affirmative2 off1 {Len 1.57}
+COMBINE_SYNTH_ANSWER4 npc/combine_soldier_synth/vo/(v30) on1 copythat, V_RNDNAMES V_RNDCODES V_RNDNUMS dash V_RNDNUMS off1 {Len 1.57}
+
+// Answering all clear
+
+COMBINE_SYNTH_CLEAR0 npc/combine_soldier_synth/vo/(v30) on1 V_MYNAMES V_MYNUMS hasnegativemovement grid V_GRIDXS dash V_GRIDYS on1 off2(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR1 npc/combine_soldier_synth/vo/(v30) on1 V_MYNAMES V_MYNUMS isholdingatcode V_RNDCODES on1 off1(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR2 npc/combine_soldier_synth/vo/(v30) on2 V_MYNAMES V_MYNUMS hasnegativemovement on1 off3(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR3 npc/combine_soldier_synth/vo/(v30) on1 affirmative, noviscon on1 off1(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR4 npc/combine_soldier_synth/vo/(v30) on1 sightlineisclear on1 off1(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR5 npc/combine_soldier_synth/vo/(v30) on2 V_MYNAMES reportingclear on1 off3(p120) {Len 2.30}
+COMBINE_SYNTH_CLEAR6 npc/combine_soldier_synth/vo/(v30) on1 sectorissecurenovison on1 off1(p120) {Len 2.30}
+
+// Questioning if all clear
+
+COMBINE_SYNTH_CHECK0 npc/combine_soldier_synth/vo/(v30) on1 stayalertreportsightlines off3 {Len 1.63}
+COMBINE_SYNTH_CHECK1 npc/combine_soldier_synth/vo/(v30) on2 reportallpositionsclear off3 {Len 1.63}
+COMBINE_SYNTH_CHECK2 npc/combine_soldier_synth/vo/(v30) on1 reportallradialsfree off3 {Len 1.63}
 
 //-----------------------------------------------------------------------------
 // METROPOLICE STARTS HERE
@@ -2749,153 +2985,162 @@ CREM_ALERT1 npc/cremator_orig/alert_player {Len 1.00}
 
 CREM_KILL0 npc/cremator_orig/killedenemy {Len 1.00}
 
-//Conscript
+//CONSCRIPT
+
 //OK, WAIT, KILL, OUT_AMMO and LINE_FIRE series processed with LISE (lwv files) for test purposes
 
 //Conscript Out of Ammo
-CONSCRIPT_OUT_AMMO0 npc/conscript/out_ammo {Len 0.90}
-CONSCRIPT_OUT_AMMO1 npc/conscript/reload {Len 0.95}
-CONSCRIPT_OUT_AMMO2 npc/conscript/coverme {Len 0.58}
+CONSCRIPT_OUT_AMMO0 barney/out_ammo {Len 0.90}
+CONSCRIPT_OUT_AMMO1 barney/reload {Len 0.95}
+CONSCRIPT_OUT_AMMO2 barney/coverme {Len 0.58}
 
 
 //Player in Line of Fire
-CONSCRIPT_LINE_FIRE0 npc/conscript/outofway {Len 0.96}
-CONSCRIPT_LINE_FIRE1 npc/conscript/inmyway {Len 1.22}
-CONSCRIPT_LINE_FIRE2 npc/conscript/linesight {Len 1.45}
-CONSCRIPT_LINE_FIRE3 npc/conscript/getshot {Len 0.98}
+CONSCRIPT_LINE_FIRE0 barney/outofway {Len 0.96}
+CONSCRIPT_LINE_FIRE1 barney/inmyway {Len 1.22}
+CONSCRIPT_LINE_FIRE2 barney/linesight {Len 1.45}
+CONSCRIPT_LINE_FIRE3 barney/getshot {Len 0.98}
 //LISE generated no linguistic info for getshot on 12/14/00--can't open on 12/22
-CONSCRIPT_LINE_FIRE4 npc/conscript/move {Len 1.44}
+CONSCRIPT_LINE_FIRE4 barney/move {Len 1.44}
 
 
 
-CONSCRIPT_OK0 npc/conscript/teamup2 {Len 0.88}
-CONSCRIPT_OK1 npc/conscript/dobettertogether {Len 2.30}
-CONSCRIPT_OK2 npc/conscript/imwithyou {Len 1.36}
-CONSCRIPT_OK3 npc/conscript/teamup1 {Len 2.29}
-CONSCRIPT_OK4 npc/conscript/gladtolendhand {Len 2.94}
-CONSCRIPT_OK5 npc/conscript/letsgo {Len 0.92}
-CONSCRIPT_OK6 npc/conscript/letsmoveit {Len 1.99}
+CONSCRIPT_OK0 barney/teamup2 {Len 0.88}
+CONSCRIPT_OK1 barney/dobettertogether {Len 2.30}
+CONSCRIPT_OK2 barney/imwithyou {Len 1.36}
+CONSCRIPT_OK3 barney/teamup1 {Len 2.29}
+CONSCRIPT_OK4 barney/gladtolendhand {Len 2.94}
+CONSCRIPT_OK5 barney/letsgo {Len 0.92}
+CONSCRIPT_OK6 barney/letsmoveit {Len 1.99}
 
-CONSCRIPT_WAIT0 npc/conscript/helpothers {Len 2.40}
-CONSCRIPT_WAIT1 npc/conscript/iwaithere {Len 1.06}
-CONSCRIPT_WAIT2 npc/conscript/slowingyoudown {Len 1.40}
-CONSCRIPT_WAIT3 npc/conscript/illwait {Len 1.11}
-CONSCRIPT_WAIT4 npc/conscript/seeya {Len 0.61}
-CONSCRIPT_WAIT5 npc/conscript/standguard {Len 1.67}
+CONSCRIPT_WAIT0 barney/helpothers {Len 2.40}
+CONSCRIPT_WAIT1 barney/iwaithere {Len 1.06}
+CONSCRIPT_WAIT2 barney/slowingyoudown {Len 1.40}
+CONSCRIPT_WAIT3 barney/illwait {Len 1.11}
+CONSCRIPT_WAIT4 barney/seeya {Len 0.61}
+CONSCRIPT_WAIT5 barney/standguard {Len 1.67}
 
 //When Conscript's killed something
-CONSCRIPT_KILL0 npc/conscript/ba_gotone {Len 0.82}
-CONSCRIPT_KILL1 npc/conscript/ba_another {Len 1.54}
-CONSCRIPT_KILL2 npc/conscript/ba_buttugly {Len 2.09}
-CONSCRIPT_KILL3 npc/metropolice_new/shooter01 {Len 1.88}
-CONSCRIPT_KILL4 npc/conscript/ba_close {Len 1.67}
-CONSCRIPT_KILL5 npc/conscript/ba_firepl {Len 2.21}
-CONSCRIPT_KILL6 npc/conscript/ba_bring {Len 0.99}
+CONSCRIPT_KILL0 barney/ba_gotone {Len 0.82}
+CONSCRIPT_KILL1 barney/ba_another {Len 1.54}
+CONSCRIPT_KILL2 barney/ba_buttugly {Len 2.09}
+CONSCRIPT_KILL3 npc/conscript/shooter01 {Len 1.88}
+CONSCRIPT_KILL4 barney/ba_close {Len 1.67}
+CONSCRIPT_KILL5 barney/ba_firepl {Len 2.21}
+CONSCRIPT_KILL6 barney/ba_bring {Len 0.99}
 
-CONSCRIPT_HELLO0 npc/conscript/hellonicesuit {Len 0.40}
-CONSCRIPT_HELLO1 npc/conscript/howdy {Len 0.86}
-CONSCRIPT_HELLO2 npc/conscript/howyoudoing {Len 0.71}
-CONSCRIPT_HELLO3 npc/conscript/haybuddy {Len 0.53}
-CONSCRIPT_HELLO4 npc/conscript/hayfella {Len 0.27}
-CONSCRIPT_HELLO5 npc/conscript/heybuddy {Len 0.53}
-CONSCRIPT_HELLO6 npc/conscript/heyfella {Len 0.27}
+CONSCRIPT_HELLO0 barney/hellonicesuit {Len 0.40}
+CONSCRIPT_HELLO1 barney/howdy {Len 0.86}
+CONSCRIPT_HELLO2 barney/howyoudoing {Len 0.71}
+CONSCRIPT_HELLO3 barney/haybuddy {Len 0.53}
+CONSCRIPT_HELLO4 barney/hayfella {Len 0.27}
+CONSCRIPT_HELLO5 barney/heybuddy {Len 0.53}
+CONSCRIPT_HELLO6 barney/heyfella {Len 0.27}
 
-CONSCRIPT_QUESTION0 npc/conscript/beertopside {Len 2.42}
-CONSCRIPT_QUESTION1 npc/conscript/wayout {Len 1.60}
-CONSCRIPT_QUESTION2 npc/conscript/getanyworse {Len 2.09}
-CONSCRIPT_QUESTION3 npc/conscript/gladof38 {Len 2.56}
-CONSCRIPT_QUESTION4 npc/conscript/workingonstuff {Len 2.71}
-CONSCRIPT_QUESTION5 npc/conscript/wayout {Len 1.60}
-CONSCRIPT_QUESTION6 npc/conscript/whatsgoingon {Len 2.01}
-CONSCRIPT_QUESTION7 npc/conscript/aintscared {Len 1.16}
-CONSCRIPT_QUESTION8 npc/conscript/nodrill {Len 2.11}
-CONSCRIPT_QUESTION9 npc/conscript/gettingcloser {Len 1.25}
-CONSCRIPT_QUESTION10 npc/conscript/youhearthat {Len 1.86}
-CONSCRIPT_QUESTION11 npc/conscript/crewdied {Len 2.37}
-CONSCRIPT_QUESTION12 npc/conscript/somethingmoves {Len 2.28}
-CONSCRIPT_QUESTION13 npc/conscript/thinking {Len 1.30}
-CONSCRIPT_QUESTION14 npc/conscript/missingleg {Len 3.13}
+CONSCRIPT_QUESTION0 barney/beertopside {Len 2.42}
+CONSCRIPT_QUESTION1 barney/wayout {Len 1.60}
+CONSCRIPT_QUESTION2 barney/getanyworse {Len 2.09}
+CONSCRIPT_QUESTION3 barney/gladof38 {Len 2.56}
+CONSCRIPT_QUESTION4 barney/workingonstuff {Len 2.71}
+CONSCRIPT_QUESTION5 barney/wayout {Len 1.60}
+CONSCRIPT_QUESTION6 barney/whatsgoingon {Len 2.01}
+CONSCRIPT_QUESTION7 barney/aintscared {Len 1.16}
+CONSCRIPT_QUESTION8 barney/nodrill {Len 2.11}
+CONSCRIPT_QUESTION9 barney/gettingcloser {Len 1.25}
+CONSCRIPT_QUESTION10 barney/youhearthat {Len 1.86}
+CONSCRIPT_QUESTION11 barney/crewdied {Len 2.37}
+CONSCRIPT_QUESTION12 barney/somethingmoves {Len 2.28}
+CONSCRIPT_QUESTION13 barney/thinking {Len 1.30}
+CONSCRIPT_QUESTION14 barney/missingleg {Len 3.13}
 
-CONSCRIPT_ANSWER0 npc/conscript/noway {Len 0.96}
-CONSCRIPT_ANSWER1 npc/conscript/ireckon {Len 0.60}
-CONSCRIPT_ANSWER2 npc/conscript/soundsright {Len 0.79}
-CONSCRIPT_ANSWER3 npc/conscript/yessir {Len 0.43}
-CONSCRIPT_ANSWER4 npc/conscript/youbet {Len 0.53}
-CONSCRIPT_ANSWER5 npc/conscript/yougotit {Len 0.60}
-CONSCRIPT_ANSWER6 npc/conscript/yup {Len 0.41}
-CONSCRIPT_ANSWER7 npc/conscript/dontaskme {Len 0.96}
-CONSCRIPT_ANSWER8 npc/conscript/dontbet {Len 0.87}
+CONSCRIPT_ANSWER0 barney/noway {Len 0.96}
+CONSCRIPT_ANSWER1 barney/ireckon {Len 0.60}
+CONSCRIPT_ANSWER2 barney/soundsright {Len 0.79}
+CONSCRIPT_ANSWER3 barney/yessir {Len 0.43}
+CONSCRIPT_ANSWER4 barney/youbet {Len 0.53}
+CONSCRIPT_ANSWER5 barney/yougotit {Len 0.60}
+CONSCRIPT_ANSWER6 barney/yup {Len 0.41}
+CONSCRIPT_ANSWER7 barney/dontaskme {Len 0.96}
+CONSCRIPT_ANSWER8 barney/dontbet {Len 0.87}
 CONSCRIPT_ANSWER9 barney/dontbuyit {Len 0.00}
-CONSCRIPT_ANSWER10 npc/conscript/dontfigure {Len 1.31}
-CONSCRIPT_ANSWER11 npc/conscript/dontguess {Len 0.93}
-CONSCRIPT_ANSWER12 npc/conscript/hardtosay {Len 0.92}
-CONSCRIPT_ANSWER13 npc/conscript/justdontknow {Len 0.99}
-CONSCRIPT_ANSWER14 npc/conscript/nope {Len 0.35}
-CONSCRIPT_ANSWER15 npc/conscript/nosir {Len 0.55}
-CONSCRIPT_ANSWER16 npc/conscript/cantfigure {Len 1.16}
-CONSCRIPT_ANSWER17 npc/conscript/maybe {Len 0.47}
-CONSCRIPT_ANSWER18 npc/conscript/notelling {Len 1.03}
-CONSCRIPT_ANSWER19 npc/conscript/bequiet {Len 1.96}
-CONSCRIPT_ANSWER20 npc/conscript/youtalkmuch {Len 1.38}
-CONSCRIPT_ANSWER21 npc/conscript/alreadyasked {Len 1.18}
+CONSCRIPT_ANSWER10 barney/dontfigure {Len 1.31}
+CONSCRIPT_ANSWER11 barney/dontguess {Len 0.93}
+CONSCRIPT_ANSWER12 barney/hardtosay {Len 0.92}
+CONSCRIPT_ANSWER13 barney/justdontknow {Len 0.99}
+CONSCRIPT_ANSWER14 barney/nope {Len 0.35}
+CONSCRIPT_ANSWER15 barney/nosir {Len 0.55}
+CONSCRIPT_ANSWER16 barney/cantfigure {Len 1.16}
+CONSCRIPT_ANSWER17 barney/maybe {Len 0.47}
+CONSCRIPT_ANSWER18 barney/notelling {Len 1.03}
+CONSCRIPT_ANSWER19 barney/bequiet {Len 1.96}
+CONSCRIPT_ANSWER20 barney/youtalkmuch {Len 1.38}
+CONSCRIPT_ANSWER21 barney/alreadyasked {Len 1.18}
 
 // player is staring at Conscript
-CONSCRIPT_STARE0 npc/conscript/yup {Len 0.41}
-CONSCRIPT_STARE1 npc/conscript/yessir {Len 0.43}
-CONSCRIPT_STARE2 npc/conscript/howyoudoing {Len 0.71}
-CONSCRIPT_STARE3 npc/conscript/heyfella {Len 0.27}
+CONSCRIPT_STARE0 barney/yup {Len 0.41}
+CONSCRIPT_STARE1 barney/yessir {Len 0.43}
+CONSCRIPT_STARE2 barney/howyoudoing {Len 0.71}
+CONSCRIPT_STARE3 barney/heyfella {Len 0.27}
 
-CONSCRIPT_IDLE0 npc/conscript/whatisthat {Len 1.61}
-CONSCRIPT_IDLE1 npc/conscript/coldone {Len 2.54}
-CONSCRIPT_IDLE2 npc/conscript/guyresponsible {Len 3.40}
-CONSCRIPT_IDLE3 npc/conscript/bigmess {Len 2.67}
-CONSCRIPT_IDLE4 npc/conscript/luckwillturn {Len 2.03}
-CONSCRIPT_IDLE5 npc/conscript/bigplace {Len 2.20}
-CONSCRIPT_IDLE6 npc/conscript/targetpractice {Len 3.26}
-CONSCRIPT_IDLE7 npc/conscript/badfeeling {Len 2.70}
-CONSCRIPT_IDLE8 npc/conscript/ambush {Len 2.42}
-CONSCRIPT_IDLE9 npc/conscript/survive {Len 2.36}
-CONSCRIPT_IDLE10 npc/conscript/stophere {Len 3.13}
+CONSCRIPT_IDLE0 barney/whatisthat {Len 1.61}
+CONSCRIPT_IDLE1 barney/coldone {Len 2.54}
+CONSCRIPT_IDLE2 barney/guyresponsible {Len 3.40}
+CONSCRIPT_IDLE3 barney/bigmess {Len 2.67}
+CONSCRIPT_IDLE4 barney/luckwillturn {Len 2.03}
+CONSCRIPT_IDLE5 barney/bigplace {Len 2.20}
+CONSCRIPT_IDLE6 barney/targetpractice {Len 3.26}
+CONSCRIPT_IDLE7 barney/badfeeling {Len 2.70}
+CONSCRIPT_IDLE8 barney/ambush {Len 2.42}
+CONSCRIPT_IDLE9 barney/survive {Len 2.36}
+CONSCRIPT_IDLE10 barney/stophere {Len 3.13}
 
-CONSCRIPT_ATTACK0 npc/metropolice_new/takedown(e50) {Len 1.49}
-CONSCRIPT_ATTACK1 npc/metropolice_new/shooter02(s50) {Len 1.49}
-CONSCRIPT_ATTACK2 npc/metropolice_new/shooter03 {Len 0.87}
-CONSCRIPT_ATTACK3 npc/metropolice_new/shooter04 {Len 1.61}
-CONSCRIPT_ATTACK4 npc/metropolice_new/shooter05 {Len 1.72}
-CONSCRIPT_ATTACK5 npc/metropolice_new/pointer01 {Len 1.69}
+CONSCRIPT_ATTACK0 npc/conscript/takedown {Len 1.49}
+CONSCRIPT_ATTACK1 npc/conscript/shooter02 {Len 1.49}
+CONSCRIPT_ATTACK2 npc/conscript/shooter03 {Len 0.87}
+CONSCRIPT_ATTACK3 npc/conscript/shooter04 {Len 1.61}
+CONSCRIPT_ATTACK4 npc/conscript/shooter05 {Len 1.72}
+CONSCRIPT_ATTACK5 npc/conscript/pointer01 {Len 1.69}
 
-CONSCRIPT_HEAR0 npc/conscript/hearsomething {Len 0.90}
-CONSCRIPT_HEAR1 npc/conscript/icanhear {Len 1.07}
-CONSCRIPT_HEAR2 npc/conscript/soundsbad {Len 1.62}
+CONSCRIPT_HEAR0 barney/hearsomething {Len 0.90}
+CONSCRIPT_HEAR1 barney/icanhear {Len 1.07}
+CONSCRIPT_HEAR2 barney/soundsbad {Len 1.62}
 
-CONSCRIPT_SMELL0 npc/conscript/somethingdied {Len 2.78}
-CONSCRIPT_SMELL1 npc/conscript/somethingstinky {Len 2.17}
-CONSCRIPT_SMELL2 npc/conscript/stench {Len 1.62}
+CONSCRIPT_SMELL0 barney/somethingdied {Len 2.78}
+CONSCRIPT_SMELL1 barney/somethingstinky {Len 2.17}
+CONSCRIPT_SMELL2 barney/stench {Len 1.62}
 
-CONSCRIPT_CUREA npc/conscript/checkwounds {Len 1.61}
-CONSCRIPT_CUREB npc/conscript/youneedmedic {Len 2.09}
-CONSCRIPT_CUREC npc/conscript/realbadwound {Len 3.18}
+CONSCRIPT_CUREA barney/checkwounds {Len 1.61}
+CONSCRIPT_CUREB barney/youneedmedic {Len 2.09}
+CONSCRIPT_CUREC barney/realbadwound {Len 3.18}
 
-CONSCRIPT_SCARED0 npc/conscript/donthurtem {Len 1.19}
-CONSCRIPT_SCARED1 npc/conscript/leavealone {Len 2.50}
+CONSCRIPT_SCARED0 barney/donthurtem {Len 1.19}
+CONSCRIPT_SCARED1 barney/leavealone {Len 2.50}
 
-CONSCRIPT_WOUND0 npc/conscript/imhit {Len 2.05}
-CONSCRIPT_WOUND1 npc/conscript/hitbad {Len 2.23}
-CONSCRIPT_MORTAL0 npc/conscript/imdead {Len 3.90}
+CONSCRIPT_WOUND0 barney/imhit {Len 2.05}
+CONSCRIPT_WOUND1 barney/hitbad {Len 2.23}
+CONSCRIPT_MORTAL0 barney/imdead {Len 3.90}
 
 //If you shoot Conscript:
-CONSCRIPT_SHOT0 npc/conscript/ba_whoathere {Len 1.37}
-CONSCRIPT_SHOT1 npc/conscript/ba_dotoyou {Len 1.60}
-CONSCRIPT_SHOT2 npc/conscript/ba_watchit {Len 1.37}
-CONSCRIPT_SHOT3 npc/conscript/ba_whatyou {Len 1.20}
-CONSCRIPT_SHOT4 npc/conscript/ba_friends {Len 2.80}
-CONSCRIPT_SHOT5 npc/conscript/ba_pissme {Len 1.77}
+CONSCRIPT_SHOT0 barney/ba_whoathere {Len 1.37}
+CONSCRIPT_SHOT1 barney/ba_dotoyou {Len 1.60}
+CONSCRIPT_SHOT2 barney/ba_watchit {Len 1.37}
+CONSCRIPT_SHOT3 barney/ba_whatyou {Len 1.20}
+CONSCRIPT_SHOT4 barney/ba_friends {Len 2.80}
+CONSCRIPT_SHOT5 barney/ba_pissme {Len 1.77}
 
-//When Conscriptâ€™s really pissed at you:
-CONSCRIPT_MAD0 npc/conscript/ba_stepoff {Len 1.37}
-CONSCRIPT_MAD1 npc/conscript/ba_iwish {Len 1.49}
-CONSCRIPT_MAD2 npc/conscript/ba_uwish {Len 2.72}
-CONSCRIPT_MAD3 npc/conscript/ba_somuch {Len 2.62}
-CONSCRIPT_MAD4 npc/conscript/ba_endline {Len 1.54}
-CONSCRIPT_MAD5 npc/conscript/ba_dontmake {Len 1.77}
-CONSCRIPT_MAD6 npc/conscript/ba_tomb {Len 1.66}
+//When Conscript’s really pissed at you:
+CONSCRIPT_MAD0 barney/ba_stepoff {Len 1.37}
+CONSCRIPT_MAD1 barney/ba_iwish {Len 1.49}
+CONSCRIPT_MAD2 barney/ba_uwish {Len 2.72}
+CONSCRIPT_MAD3 barney/ba_somuch {Len 2.62}
+CONSCRIPT_MAD4 barney/ba_endline {Len 1.54}
+CONSCRIPT_MAD5 barney/ba_dontmake {Len 1.77}
+CONSCRIPT_MAD6 barney/ba_tomb {Len 1.66}
+
+CONSCRIPT_PAIN1 npc/conscript/pain1 {Len 1.0}
+CONSCRIPT_PAIN2 npc/conscript/pain2 {Len 1.0}
+CONSCRIPT_PAIN3 npc/conscript/pain3 {Len 1.0}
+
+CONSCRIPT_DIE1 npc/conscript/die1 {Len 1.0}
+CONSCRIPT_DIE2 npc/conscript/die2 {Len 1.0}
+CONSCRIPT_DIE3 npc/conscript/die3 {Len 1.0}

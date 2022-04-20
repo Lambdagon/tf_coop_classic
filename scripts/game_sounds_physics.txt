@@ -58,6 +58,21 @@
 // *****************
 // SURFACE MATERIALS
 
+
+"Default.FlareImpact"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"physics/concrete/concrete_impact_flare1.wav"
+		"wave"		"physics/concrete/concrete_impact_flare2.wav"
+		"wave"		"physics/concrete/concrete_impact_flare3.wav"
+		"wave"		"physics/concrete/concrete_impact_flare4.wav"
+	}
+}
+
 "Player.Swim"
 {
 	"channel"	"CHAN_STATIC"
@@ -94,7 +109,7 @@
 {
 	"soundlevel"		"SNDLVL_96dB"
 	"pitch"			"95,105"
-	"volume"			"1.0"
+	"volume"			".72"
 	"rndwave"
 	{
 		"wave"		"player/footsteps/concrete1.wav"
@@ -106,7 +121,7 @@
 {
 	"soundlevel"		"SNDLVL_96dB"
 	"pitch"			"95,105"
-	"volume"			"1.0"
+	"volume"			".72"
 	"rndwave"
 	{
 		"wave"		"player/footsteps/concrete2.wav"
@@ -117,13 +132,14 @@
 "Default.BulletImpact"
 {
 	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.7"
 	"pitch"			"PITCH_NORM"
-	"volume"			"0.7"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_box_impact_hard1.wav"
-		"wave"		"physics/plastic/plastic_box_impact_hard2.wav"
-		"wave"		"physics/plastic/plastic_box_impact_hard3.wav"
+		"wave"		"physics/concrete/concrete_impact_bullet1.wav"
+		"wave"		"physics/concrete/concrete_impact_bullet2.wav"
+		"wave"		"physics/concrete/concrete_impact_bullet3.wav"
+		"wave"		"physics/concrete/concrete_impact_bullet4.wav"
 	}
 }
 
@@ -555,6 +571,7 @@
 	{
 		"wave"		"player/footsteps/slosh2.wav"
 		"wave"		"player/footsteps/slosh4.wav"
+		"wave"		"player/footsteps/slosh6.wav"
 	}
 }
 
@@ -567,6 +584,7 @@
 	{
 		"wave"		"player/footsteps/slosh1.wav"
 		"wave"		"player/footsteps/slosh3.wav"
+		"wave"		"player/footsteps/slosh5.wav"
 	}
 }
 
@@ -581,6 +599,8 @@
 		"wave"	"player/footsteps/slosh3.wav"
 		"wave"	"player/footsteps/slosh2.wav"
 		"wave"	"player/footsteps/slosh4.wav"
+		"wave"	"player/footsteps/slosh5.wav"
+		"wave"	"player/footsteps/slosh6.wav"
 	}
 }
 
@@ -610,9 +630,9 @@
 
 	"rndwave"
 	{
-		"wave"	"ambient/water/water_splash1.wav"
-		"wave"	"ambient/water/water_splash2.wav"
-		"wave"	"ambient/water/water_splash3.wav"
+		"wave"	"ambient_mp3/water/water_splash1.mp3"
+		"wave"	"ambient_mp3/water/water_splash2.mp3"
+		"wave"	"ambient_mp3/water/water_splash3.mp3"
 	}
 }
 
@@ -3779,8 +3799,100 @@
 
 	"rndwave"
 	{
-		"wave"	"ambient/water/water_splash1.wav"
-		"wave"	"ambient/water/water_splash2.wav"
-		"wave"	"ambient/water/water_splash3.wav"
+		"wave"	"ambient_mp3/water/water_splash1.mp3"
+		"wave"	"ambient_mp3/water/water_splash2.mp3"
+		"wave"	"ambient_mp3/water/water_splash3.mp3"
+	}
+}
+
+"cleats_dirt.StepLeft"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"			".72"
+	"rndwave"
+	{
+		"wave"		"player\footsteps\cleats_dirt_01.wav"
+		"wave"		"player\footsteps\cleats_dirt_02.wav"
+	}
+}
+
+"cleats_dirt.StepRight"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"			".72"
+	"rndwave"
+	{
+		"wave"		"player\footsteps\cleats_dirt_03.wav"
+		"wave"		"player\footsteps\cleats_dirt_04.wav"
+	}
+}
+
+"cleats_conc.StepLeft"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"			".72"
+	"rndwave"
+	{
+		"wave"		"player\footsteps\cleats_conc_02.wav"
+		"wave"		"player\footsteps\cleats_conc_01.wav"
+	}
+}
+
+"cleats_conc.StepRight"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"			".72"
+	"rndwave"
+	{
+		"wave"		"player\footsteps\cleats_conc_04.wav"
+		"wave"		"player\footsteps\cleats_conc_03.wav"
+	}
+}
+
+"PegLeg.StepRight"
+{
+	"soundlevel"	"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"		"1"
+	"rndwave"
+	{
+		"wave"		"items\pegleg_01.wav"
+		"wave"		"items\pegleg_02.wav"
+	}
+}
+
+"Chest.Step"
+{
+	"soundlevel"	"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"		"1"
+	"rndwave"
+	{
+		"wave"		"\weapons\knife_open1.wav"
+		"wave"		"\weapons\knife_open2.wav"
+		"wave"		"\weapons\knife_open8.wav"
+		"wave"		"\weapons\knife_open7.wav"
+	}
+}
+
+// Econ item related
+
+"Octopus.StepCommon"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"				"95,105"
+	"volume"			".8"
+	"rndwave"
+	{
+		"wave"		"misc/octosteps/octosteps_01.wav"
+		"wave"		"misc/octosteps/octosteps_02.wav"
+		"wave"		"misc/octosteps/octosteps_03.wav"
+		"wave"		"misc/octosteps/octosteps_04.wav"
+		"wave"		"misc/octosteps/octosteps_05.wav"
+		"wave"		"misc/octosteps/octosteps_06.wav"
 	}
 }

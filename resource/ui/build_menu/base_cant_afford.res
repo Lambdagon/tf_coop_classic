@@ -2,7 +2,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"6"
@@ -39,7 +39,7 @@
 	
 	"CantBuildReason"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"Default"
 		"fgcolor"		"RedSolid"
@@ -74,7 +74,7 @@
 	
 	"CostLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
 		"fgcolor"		"RedSolid"
@@ -89,6 +89,25 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
+	}
+	
+	"ModeLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"RedSolid"
+		"xpos"			"33"
+		"ypos"			"17"
+		"zpos"			"1"
+		"wide"			"44"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"East"	
 	}
 	
 	"NumberBg"	
@@ -109,7 +128,7 @@
 	
 	"NumberLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"

@@ -15,6 +15,18 @@
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
+
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"8"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"436"
+		"tall"			"2"
+		"fillcolor"		"255 222 208 255"
+	}
 	
 	"BuildIcon"	
 	{
@@ -50,7 +62,7 @@
 	
 	"TitleLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
@@ -70,7 +82,7 @@
 	
 	"TitleLabelDropshadow"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
@@ -91,7 +103,7 @@
 	
 	"CancelLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
 		"xpos"			"218"
@@ -245,6 +257,54 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_4"
+		"xpos"			"325"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"124"
+		"visible"		"0"
+	}
+
+	"unavailable_item_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_1"
+		"xpos"			"25"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"124"
+		"visible"		"0"
+	}	
+	
+	"unavailable_item_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_2"
+		"xpos"			"125"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"124"
+		"visible"		"0"
+	}	
+	
+	"unavailable_item_3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_3"
+		"xpos"			"225"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"124"
+		"visible"		"0"
+	}	
+	
+	"unavailable_item_4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_4"
 		"xpos"			"325"
 		"ypos"			"47"
 		"zpos"			"1"

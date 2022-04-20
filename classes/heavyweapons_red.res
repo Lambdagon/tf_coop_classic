@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_heavy"
+		"text"			"#ClassTips_6_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#TF_Class_Name_Undefined"
 	}
 	
 	"classModel"

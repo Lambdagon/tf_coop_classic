@@ -17,7 +17,7 @@
 	
 	"MapInfoTitle"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-184"
 		"xpos_lodef"			"c-174"	
@@ -39,7 +39,7 @@
 	
 	"MapInfoType"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-184"
 		"xpos_lodef"			"c-174"
@@ -61,7 +61,7 @@
 	
 	"MapInfoText"
 	{
-		"ControlName"	"CTFRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"ChalkboardText"
 		"xpos"			"c-184"
@@ -110,7 +110,7 @@
 
 	"MapInfoContinue" [$WIN32]
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"r190"
 		"xpos_lodef"			"r222"
@@ -137,7 +137,7 @@
 	
 	"MapInfoWatchIntro" [$WIN32]
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"c-50"
 		"ypos"			"r40"
@@ -162,7 +162,7 @@
 	
 	"MapInfoBack" [$WIN32]
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
 		"xpos"			"40"
 		"xpos_hidef"			"50"
@@ -233,7 +233,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}	
 

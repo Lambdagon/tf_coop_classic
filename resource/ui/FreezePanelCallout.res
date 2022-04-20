@@ -4,24 +4,30 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"CalloutBG"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"12"
+		"ypos"			"13"
 		"zpos"			"0"
-		"wide"			"80"
-		"tall"			"30"
+		"wide"			"76"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/freezecam_black_bg"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"	
-		"teambg_2"		"../hud/freezecam_blue_bg"	// Reversed, due to showing killer's name
-		"teambg_3"		"../hud/freezecam_red_bg"	// Reversed, due to showing killer's name	
+		"teambg_2"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
+		"teambg_3"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"		
 	}
 	"ArrowIcon"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ArrowIcon"
 		"xpos"			"20"
-		"ypos"			"34"
+		"ypos"			"35"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"10"
@@ -32,9 +38,9 @@
 	}		
 	"CalloutLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmall"
 		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"2"

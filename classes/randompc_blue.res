@@ -2,7 +2,7 @@
 {
 	"classNameLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"classNameLabel"
 		"xpos"			"355"
 		"ypos"			"160"
@@ -26,7 +26,7 @@
 	
 	"classInfo"
 	{
-		"ControlName"	"CTFRichText"
+		"ControlName"		"CExRichText"
 		"fieldName"		"classInfo"
 		"xpos"			"355"
 		"ypos"			"200"
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"maxchars"		"-1"
-		"text"			"#classinfo_random"
+		"text"			"#ClassTips_12_1"
 		"wrap"			"1"
 		"textAlignment"	"north-west"
 		"font"			"ChalkboardText"
@@ -50,7 +50,7 @@
 	
 	"classModel"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"		"CModelPanel"
 		"fieldName"		"classModel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -68,12 +68,12 @@
 			"modelname"	"models/class_menu/random_class_icon.mdl"
 			"modelname_hwm"	"models/class_menu/random_class_icon.mdl"
 			"skin" "1"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "220"
-			"origin_y" "15"
-			"origin_z" "-5"	
+            "angles_x" "0"
+            "angles_y" "180"
+            "angles_z" "0"
+            "origin_x" "220"
+            "origin_y" "15"			
+			"origin_z" "-48"
 			"spotlight" "1"
 
 			"animation"

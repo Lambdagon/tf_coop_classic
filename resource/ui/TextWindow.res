@@ -18,7 +18,7 @@
 	
 	"TFMessageTitle"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"c-184"
 		"ypos"			"95"
@@ -47,7 +47,7 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CTFRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
 		"xpos"			"c-184"
@@ -83,7 +83,7 @@
 	
 	"ok"
 	{
-		"ControlName"		"CTFButton"
+		"ControlName"		"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"r190"
 		"ypos"			"r40"
@@ -147,7 +147,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}						
 	

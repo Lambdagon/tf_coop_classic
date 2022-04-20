@@ -17,6 +17,8 @@
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_4"		"../hud/death_panel_green_bg"
+		"teambg_5"		"../hud/death_panel_yellow_bg"
 	}
 	"StatPanelClassImage"
 	{
@@ -44,7 +46,7 @@
 		"font_lodef"	"HudFontSmall"
 		"xpos"			"72"
 		"xpos_lodef"	"100"
-		"ypos"			"26"
+		"ypos"			"29"
 		"ypos_lodef"	"30"
 		"zpos"			"2"
 		"wide"			"175"

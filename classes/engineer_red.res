@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_engineer"
+		"text"			"#ClassTips_9_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_9_2"
 	}
 	
 	"classModel"

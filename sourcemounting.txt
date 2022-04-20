@@ -1,0 +1,6 @@
+// This file is used to mounth any source mod
+// the appid must be set to any of the two sdk 2013 bases
+// and do a juntion link of the sourcemod in Source SDK Base Multiplayer/SinglePlayer root folder
+"SourceMods"
+{
+}

@@ -6,6 +6,8 @@ WeaponData
 	"printname"		"Crossbow"
 	"viewmodel"		"models/v_crossbow.mdl"
 	"playermodel"		"models/w_crossbow.mdl"
+	"playermodel_hl1"	"models/w_crossbow.mdl"
+	"playermodel_hl1_hd"	"models/w_crossbow_hd.mdl"
 	"anim_prefix"		"bow"
 	"bucket"		"2"
 	"bucket_position"	"2"

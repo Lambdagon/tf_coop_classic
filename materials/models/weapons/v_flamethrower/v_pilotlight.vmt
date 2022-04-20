@@ -1,6 +1,6 @@
 "UnlitTwoTexture"
 {
-	"$basetexture"	"\models\weapons\v_flamethrower\v_pilotlight"
+	"$basetexture"	"models\weapons\v_flamethrower\v_pilotlight"
 	"$texture2" "models/effects/pyro/pilotlight_motion"
 	"$surfaceprop"	"default"
 	"$additive"	1

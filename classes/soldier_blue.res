@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_soldier"
+		"text"			"#ClassTips_3_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_3_2"
 	}
 	
 	"classModel"
@@ -24,7 +28,7 @@
 
 			"animation"
 			{
-				"sequence"		"SelectionMenu_all"
+				"sequence"		"selectionMenu_Anim0l"
 			}
 			
 			"attached_model"

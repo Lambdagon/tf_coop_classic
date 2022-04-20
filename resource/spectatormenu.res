@@ -85,13 +85,13 @@
 		"menuitem34"
 		{
 			"label"		"#Valve_Overview_ZoomIn"
-			"command"	"overview_zoom 1.1 0.1 rel"
+			"command"	"overview_zoomrel 1.1"
 		}
 		
 		"menuitem35"
 		{
 			"label"		"#Valve_Overview_ZoomOut"
-			"command"	"overview_zoom 0.9 0.1 rel"
+			"command"	"overview_zoomrel 0.9"
 		}
 	}
 	

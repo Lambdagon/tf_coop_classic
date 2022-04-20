@@ -27,6 +27,20 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"1"
+		"ypos"			"2"
+		"zpos"			"3"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"	
+	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,15 +57,18 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"75"
-		"ypos"			"32"
+		"xpos"			"6"
+		"ypos"			"11"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"20"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
 		"textAlignment"	"center"	
+		"font"			"SpectatorVerySmall"
+		"fgcolor"		"TanDark"
 	}								
 }

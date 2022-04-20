@@ -6,6 +6,7 @@ WeaponData
 	"printname"		"Tripmine"
 	"viewmodel"		"models/v_tripmine.mdl"
 	"playermodel"		"models/w_tripmine.mdl"
+	"playermodel_hl1_hd"	"models/w_tripmine_hd.mdl"
 	"anim_prefix"		"trip"
 	"bucket"		"4"
 	"bucket_position"	"2"

@@ -21,6 +21,50 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	"ChargeLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabel"
+		"xpos"					"25"
+		"ypos"					"27"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Charge"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+
+	"ChargeMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ChargeMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"zpos"					"2"
+		"wide"					"40"
+		"wide_minmode"			"50"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}				
+		
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -53,7 +97,7 @@
 		
 		"NumPipesLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
 			"xpos_minmode"	"42"
@@ -78,7 +122,7 @@
 		}
 		"NumPipesLabelDropshadow"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
 			"xpos_minmode"	"43"
@@ -136,7 +180,7 @@
 
 		"NumPipesLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
 			"xpos_minmode"	"42"
@@ -161,7 +205,7 @@
 		}
 		"NumPipesLabelDropshadow"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
 			"xpos_minmode"	"43"

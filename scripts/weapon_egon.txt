@@ -6,6 +6,7 @@ WeaponData
 	"printname"		"Gluon gun"
 	"viewmodel"		"models/v_egon.mdl"
 	"playermodel"		"models/w_egon.mdl"
+	"playermodel_hl1_hd"	"models/w_egon_hd.mdl"
 	"anim_prefix"		"egon"
 	"bucket"		"3"
 	"bucket_position"	"2"

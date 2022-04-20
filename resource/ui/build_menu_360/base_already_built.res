@@ -2,7 +2,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"6"
@@ -77,7 +77,7 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
@@ -86,7 +86,7 @@
 	
 	"CostLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
 		"fgcolor"		"ProgressOffWhite"
@@ -97,7 +97,7 @@
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"	

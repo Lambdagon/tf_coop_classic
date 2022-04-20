@@ -6,6 +6,7 @@ WeaponData
 	"printname"		"Hand grenade"
 	"viewmodel"		"models/v_grenade.mdl"
 	"playermodel"		"models/w_grenade.mdl"
+	"playermodel_hl1_hd"	"models/w_grenade_hd.mdl"
 	"anim_prefix"		"crowbar"
 	"bucket"		"4"
 	"bucket_position"	"0"

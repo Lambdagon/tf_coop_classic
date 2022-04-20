@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_demo"
+		"text"			"#ClassTips_4_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_4_2"
 	}
 	
 	"classModel"

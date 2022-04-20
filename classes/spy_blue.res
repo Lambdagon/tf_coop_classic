@@ -9,7 +9,19 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_spy"
+		"text"			"#ClassTips_8_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_8_2"
+	}
+	"classInfo3"
+	{
+		"text"			"#ClassTips_8_3"
+	}
+	"classInfo4"
+	{
+		"text"			"#ClassTips_8_4"
 	}
 	
 	"classModel"

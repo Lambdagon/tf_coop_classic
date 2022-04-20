@@ -40,7 +40,7 @@ actor "Breen"
   }
   channel "triggers"
   {
-    event firetrigger "teleport FX"
+    event firetrigger "1 - teleport FX"
     {
       time 3.039999 -1.000000
       param "1"
@@ -97,12 +97,14 @@ actor "Breen"
     {
       time 0.020000 1.220000
       param "sit_startle"
+	  playoverscript
       fixedlength
     }
     event sequence "getup"
     {
       time 1.033334 3.033334
       param "get_up"
+	  playoverscript
       fixedlength
     }
     event sequence "console"
@@ -114,11 +116,27 @@ actor "Breen"
         0.1820 0.9868
         2.6600 1.0000
       }
+	  playoverscript
       fixedlength
     }
   }
   channel "gesture"
   {
+    event firetrigger "4 - console anim"
+    {
+      time 2.846666 -1.000000
+      param "4"
+    }
+    event firetrigger "2 - startle anim"
+    {
+      time 0.046666 -1.000000
+      param "2"
+    }
+    event firetrigger "3 - getup anim"
+    {
+      time 1.046666 -1.000000
+      param "3"
+    }
   }
   channel "head"
   {
@@ -150,3 +168,4 @@ scalesettings
 }
 fps 60
 snap off
+ignorePhonemes off

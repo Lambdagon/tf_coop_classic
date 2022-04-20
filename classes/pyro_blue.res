@@ -9,7 +9,11 @@
 	
 	"classInfo"
 	{
-		"text"			"#classinfo_pyro"
+		"text"			"#ClassTips_7_1"
+	}
+	"classInfo2"
+	{
+		"text"			"#ClassTips_7_2"
 	}
 	
 	"classModel"

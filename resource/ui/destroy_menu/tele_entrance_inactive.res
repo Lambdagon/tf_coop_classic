@@ -2,7 +2,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"6"
@@ -38,7 +38,7 @@
 	
 	"NotBuiltLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
 		"font"			"Default"
 		"xpos"			"10"
@@ -51,6 +51,26 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}	
+
+	"UnavailableLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"UnavailableLabel"
+		"font"			"Default"
+		"xpos"			"10"
+		"ypos"			"48"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -74,7 +94,7 @@
 	
 	"NumberLabel"
 	{	
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"

@@ -18,7 +18,7 @@
 	
 	"titlelabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"			"titlelabel"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -33,7 +33,7 @@
 
 	"Skip" [$WIN32] 
 	{
-		"ControlName"		"CTFButton"
+		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
 		"xpos"			"r190"
 		"xpos_lodef"			"r222"
@@ -56,11 +56,38 @@
 		"wrap"		"0"
 		"command"		"skip"
 		"font"			"MenuSmallFont"
-	}	
+	}
+
+	"Continue" [$WIN32] 
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"Continue"
+		"xpos"			"r190"
+		"xpos_lodef"			"r222"
+		"xpos_hidef"			"r232"
+		"ypos"			"r40"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Continue"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"skip"
+		"font"			"MenuSmallFont"
+	}
 	
 	"Back" [$WIN32] 
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"Back"
 		"xpos"			"40"
 		"xpos_hidef"			"50"
@@ -79,6 +106,31 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
+		"font"			"MenuSmallFont"
+		"fgcolor"		"Black"
+	}
+
+	"ReplayVideo" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReplayVideo"
+		"xpos"			"40"
+		"xpos_hidef"			"50"
+		"ypos"			"r40"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_ReplayIntro"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"replayVideo"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
@@ -101,7 +153,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -173,7 +226,7 @@
 	
 	"VideoCaption"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
 		"xpos"			"c-145"
 		"ypos"			"c40"

@@ -1,0 +1,153 @@
+"Resource/UI/BaseModUI/CreateGameProperty.res"
+{
+	"CreateGameProperty"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"CreateGameProperty"
+		"xpos"									"0"
+		"ypos"									"0"
+		"wide"									"f0"
+		"tall"									"480"
+		"autoResize"							"0"
+		"pinCorner"								"0"
+		"visible"								"1"
+		"enabled"								"1"
+		"tabPosition"							"0"
+		"settitlebarvisible"					"0"
+		"PaintBackgroundType"					"0"
+		"bgcolor_override"						"46 43 42 0"
+		"infocus_bgcolor_override"				"46 43 42 0"
+		"outoffocus_bgcolor_override"			"46 43 42 0"
+		
+		"title"									"#GameUI_CreateServer"
+		"title_font"							"HudFontMediumBold"
+		"titletextinsetX"						"40"
+		"titletextinsetY"						"15"
+		"titlebarfgcolor_override"				"200 187 161 255"
+		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarbgcolor_override"				"46 43 42 255"
+
+		"clientinsetx_override"					"0"
+		"sheetinset_bottom"						"40"
+	}
+
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}				
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"422"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}
+
+	"Sheet"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabwidth"			"200"
+		"tabheight"			"34"
+		"transition_time" 	"0"
+		
+		"HeaderLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"0"
+			"ypos"			"32"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}				
+		
+		"tabskv"
+		{
+			"textinsetx"				"40"
+			"font"						"HudFontMediumBold"
+			"selectedcolor"				"200 187 161 255"
+			"unselectedcolor"			"130 120 104 255"	
+			"defaultBgColor_override"	"46 43 42 255"
+			"paintbackground"			"0"
+			"activeborder_override"		"OutlinedGreyBox"
+			"normalborder_override" 	"OutlinedDullGreyBox"
+		}
+	}
+
+	"BtnCancel"
+	{
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnBack"
+		"xpos"					"c-260"
+		"ypos"					"r40"
+		"wide"					"120"
+		"tall"					"27"
+		"zpos"					"5"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#GameUI_Back"
+		"command"				"vguicancel"
+		"textAlignment"			"center"
+		"font"					"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
+	}
+
+	"BtnStart"
+	{
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnStart"
+		"xpos"					"c160"
+		"ypos"					"r40"
+		"wide"					"120"
+		"tall"					"27"
+		"zpos"					"5"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#GameUI_Start"
+		"command"				"ok"
+		"textAlignment"			"center"
+		"font"					"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
+	}
+}

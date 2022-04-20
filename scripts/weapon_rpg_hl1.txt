@@ -6,6 +6,8 @@ WeaponData
 	"printname"		"RPG launcher"
 	"viewmodel"		"models/v_rpg.mdl"
 	"playermodel"		"models/w_rpg.mdl"
+	"playermodel_hl1"		"models/w_rpg.mdl"
+	"playermodel_hl1_hd"		"models/w_rpg_hd.mdl"
 	"anim_prefix"		"rpg"
 	"bucket"		"3"
 	"bucket_position"	"0"

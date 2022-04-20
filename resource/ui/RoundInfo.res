@@ -32,7 +32,7 @@
 	
 	"Title"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Title"
 		"xpos"			"c-215"
 		"ypos"			"85"
@@ -53,7 +53,7 @@
 	
 	"Mapname"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Mapname"
 		"xpos"			"c-215"
 		"ypos"			"120"
@@ -74,7 +74,7 @@
 	
 	"RoundContinue" [$WIN32]
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"RoundContinue"
 		"xpos"			"r190"
 		"xpos_lodef"			"r222"
@@ -161,7 +161,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}	
 	

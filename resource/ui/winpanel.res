@@ -44,14 +44,14 @@
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"ScoreboardTeamName"
-			"labelText"		"#TF_ScoreBoard_Blue"
+			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"56"
 			"ypos"			"25"
-			"wide"			"50"
+			"wide"			"100"
 			"tall"			"20"
 			"tall_lodef"	"24"
 			"tall_hidef"	"24"
@@ -62,15 +62,15 @@
 		}							
 		"BlueTeamScore"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
 			"font"			"ScoreboardTeamScore"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"95"
+			"xpos"			"80"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"80"
+			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
 			"tall_hidef"	"75"
@@ -81,16 +81,16 @@
 		}
 		"BlueTeamScoreDropshadow"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"font"			"ScoreboardTeamScore"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"96"
+			"xpos"			"81"
 			"ypos"			"1"
 			"zpos"			"3"
-			"wide"			"80"
+			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
 			"tall_hidef"	"75"
@@ -101,14 +101,14 @@
 		}							
 		"RedTeamLabel"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"ScoreboardTeamName"
-			"labelText"		"#TF_ScoreBoard_Red"
+			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
-			"xpos"			"274"
+			"xpos"			"224"
 			"ypos"			"25"
-			"wide"			"50"
+			"wide"			"100"
 			"tall"			"20"
 			"tall_lodef"	"24"
 			"tall_hidef"	"24"
@@ -119,15 +119,15 @@
 		}							
 		"RedTeamScore"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
 			"font"			"ScoreboardTeamScore"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"207"
+			"xpos"			"202"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"80"
+			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
 			"tall_hidef"	"75"
@@ -138,16 +138,16 @@
 		}
 		"RedTeamScoreDropshadow"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
 			"font"			"ScoreboardTeamScore"
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"208"
+			"xpos"			"203"
 			"ypos"			"1"
 			"zpos"			"3"
-			"wide"			"80"
+			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
 			"tall_hidef"	"75"
@@ -160,20 +160,20 @@
 	}
 	"WinPanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"-102"
-		"ypos"			"50"
+		"ypos"			"45"
 		"zpos"			"0"
 		"wide"			"496"
-		"tall"			"164"
+		"tall"			"226"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
 	}
 	"WinningTeamLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"ScoreboardTeamName"
 		"xpos"			"0"
@@ -192,7 +192,7 @@
 	}
 	"WinningTeamLabelDropshadow"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
 		"fgcolor"		"black"
@@ -212,14 +212,14 @@
 	}
 	"AdvancingTeamLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"ScoreboardMedium"
 		"xpos"			"0"
 		"ypos"			"72"
 		"zpos"			"1"
 		"wide"			"292"
-		"tall"			"20"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -231,7 +231,7 @@
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"ScoreboardMedium"
 		"fgcolor"		"black"
@@ -239,7 +239,7 @@
 		"ypos"			"73"
 		"zpos"			"1"
 		"wide"			"292"
-		"tall"			"20"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -251,7 +251,7 @@
 	}
 	"WinReasonLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"0"
@@ -270,7 +270,7 @@
 	}
 	"DetailsLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"12"
@@ -295,7 +295,7 @@
 		"ypos"			"116"
 		"zpos"			"2"
 		"wide"			"268"
-		"tall"			"72"
+		"tall"			"125"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -307,7 +307,7 @@
 	}
 	"TopPlayersLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"15"
@@ -326,7 +326,7 @@
 	}
 	"PointsThisRoundLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"136"
@@ -364,8 +364,8 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
-		"xpos"			"14"
-		"ypos"			"132"
+		"xpos"			"22"
+		"ypos"			"135"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -377,9 +377,9 @@
 	}
 	"Player1Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
-		"xpos"			"36"	[$WIN32]
+		"xpos"			"50"	[$WIN32]
 		"xpos"			"14"	[$X360]
 		"ypos"			"132"
 		"zpos"			"3"
@@ -397,7 +397,7 @@
 	}
 	"Player1Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
 		"xpos"			"180"
 		"ypos"			"132"
@@ -415,7 +415,7 @@
 	}
 	"Player1Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
 		"xpos"			"240"
 		"ypos"			"132"
@@ -435,8 +435,8 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player2Avatar"
-		"xpos"			"14"
-		"ypos"			"150"
+		"xpos"			"22"
+		"ypos"			"157"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -448,11 +448,11 @@
 	}
 	"Player2Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
-		"xpos"			"36"	[$WIN32]
+		"xpos"			"50"	[$WIN32]
 		"xpos"			"14"	[$X360]
-		"ypos"			"150"
+		"ypos"			"154"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
 		"wide"			"150"	[$X360]
@@ -468,10 +468,10 @@
 	}
 	"Player2Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
 		"xpos"			"180"
-		"ypos"			"150"
+		"ypos"			"154"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
@@ -486,10 +486,10 @@
 	}
 	"Player2Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
 		"xpos"			"240"
-		"ypos"			"150"
+		"ypos"			"154"
 		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"20"
@@ -506,8 +506,8 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
-		"xpos"			"14"
-		"ypos"			"168"
+		"xpos"			"22"
+		"ypos"			"179"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -519,11 +519,11 @@
 	}
 	"Player3Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
-		"xpos"			"36"	[$WIN32]
+		"xpos"			"50"	[$WIN32]
 		"xpos"			"14"	[$X360]
-		"ypos"			"168"
+		"ypos"			"176"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
 		"wide"			"150"	[$X360]
@@ -539,10 +539,10 @@
 	}
 	"Player3Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
 		"xpos"			"180"
-		"ypos"			"168"
+		"ypos"			"176"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
@@ -557,10 +557,10 @@
 	}
 	"Player3Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
 		"xpos"			"240"
-		"ypos"			"168"
+		"ypos"			"176"
 		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"20"

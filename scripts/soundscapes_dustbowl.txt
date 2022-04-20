@@ -76,10 +76,10 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient/owl1.wav"
-			"wave"		"ambient/owl2.wav"
-			"wave"		"ambient/crow1.wav"
-			"wave"		"ambient/crow2.wav"
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
 		}
 	}
 

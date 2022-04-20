@@ -6,6 +6,7 @@ WeaponData
 	"printname"		"Hornet gun"
 	"viewmodel"		"models/v_hgun.mdl"
 	"playermodel"		"models/w_hgun.mdl"
+	"playermodel_hl1_hd"	"models/w_hgun_hd.mdl"
 	"anim_prefix"		"hive"
 	"bucket"		"3"
 	"bucket_position"	"3"

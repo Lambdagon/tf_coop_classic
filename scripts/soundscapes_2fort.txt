@@ -248,12 +248,12 @@
 		"attenuation"	"0.25"	
 		"rndwave"
 		{
-			"wave"		"ambient/cow1.wav"
-			"wave"		"ambient/cow2.wav"
-			"wave"		"ambient/cow3.wav"
-			"wave"		"ambient/bird1.wav"
-			"wave"		"ambient/bird2.wav"
-			"wave"		"ambient/bird3.wav"
+			"wave"		"ambient_mp3/cow1.mp3"
+			"wave"		"ambient_mp3/cow2.mp3"
+			"wave"		"ambient_mp3/cow3.mp3"
+			"wave"		"ambient_mp3/bird1.mp3"
+			"wave"		"ambient_mp3/bird2.mp3"
+			"wave"		"ambient_mp3/bird3.mp3"
 		}
 	}
 
@@ -306,12 +306,12 @@
 		"attenuation"	"0.7"	
 		"rndwave"
 		{
-			"wave"		"ambient/cow1.wav"
-			"wave"		"ambient/cow2.wav"
-			"wave"		"ambient/cow3.wav"
-			"wave"		"ambient/bird1.wav"
-			"wave"		"ambient/bird2.wav"
-			"wave"		"ambient/bird3.wav"
+			"wave"		"ambient_mp3/cow1.mp3"
+			"wave"		"ambient_mp3/cow2.mp3"
+			"wave"		"ambient_mp3/cow3.mp3"
+			"wave"		"ambient_mp3/bird1.mp3"
+			"wave"		"ambient_mp3/bird2.mp3"
+			"wave"		"ambient_mp3/bird3.mp3"
 		}
 	}
 
