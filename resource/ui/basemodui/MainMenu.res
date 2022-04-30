@@ -48,9 +48,9 @@
 		"wrap"					"1"
 		"navUp"					"BtnQuit"
 		"navDown"				"BtnStatsAndAchievements"
-		"labelText"				"#L4D360UI_MainMenu_CoOp"
+		"labelText"				"Play"
 		"tooltiptext"			"#L4D360UI_MainMenu_CoOp_Tip"
-		"style"					"AlienSwarmMenuButton"
+		"style"					"AlienSwarmMenuButtonSmall"
 		"command"				"FlmServerFlyout"
 	}	
 		
